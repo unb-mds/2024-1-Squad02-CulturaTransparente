@@ -8,7 +8,7 @@
         <td align="center">
             <a href="https://github.com/andre-maia51">
                 <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/76632983?v=4" width="150px;"/>
-                <h5 class="text-center">André Maia</h5>
+                <h5 href = "https://github.com/andre-maia51" class="text-center">André Maia</h5>
             </a>
         </td>
         <td align="center">
