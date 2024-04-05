@@ -50,3 +50,6 @@
         </td>
 </table>
 </center>
+
+## Documentação
+<p>Para acessar a nossa documentação <a href="https://unb-mds.github.io/2024-1-Squad02-CulturaTransparente/">Clique aqui.</a></p>
