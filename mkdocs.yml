@@ -1,6 +1,7 @@
 site_name: My Docs
 nav:
   - Home: index.md
+  - Sprints: sprints.md
 
 theme: readthedocs 
 
