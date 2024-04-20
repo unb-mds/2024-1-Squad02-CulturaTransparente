@@ -17,12 +17,12 @@
         <ul>
              <li>Dia 19/03
                   <ul>
-                      <li>Na primeira reunião foi traçadas os primeiros objetivos.Foi decedido que nas segundas e sextas feiras seriam os nossos dias de reuniões.Também foi discutido as divisões do trabalho.</li>
+                      <li>Nessa reuniões, traçamos os primeiros objetivos do projeto. Ficou acordado entre o grupo que nas segundas e sextas-feiras seriam realizadas as reuniões.Dividimos o grupo para seu respectivo setor no trabalho.Front-End | Mateus Cavati, Pedro Gois, Isabelle da Costa. Back-End | Enrico Zoratto, José Vinicius. E DevOps | Pedro Henrique, André Maia. |</li>
                   </ul>
              </li>
              <li>Dia 22/03
                  <ul>
-                     <li>Foi determinado os ultimos parẫmetros da sprint 0,quais eram os topicos que deveria estudar,desde de Github,Scrum,Github Flow até metodologias ageis</li>
+                     <li>Conversamos sobre os temas estudados durante o período, quais tópicos reforçar.</li>
                  </ul>
              </li>
         </ul>
@@ -38,20 +38,20 @@
       <p>Periodo: 25/03 a 01/04</p>
       <li>Objetivos
         <ul>
-            <li>Utilizar o github project como plataforma usada para gerir e adicionar issues e milestones do projeto</li>
-            <li>Determinar o que cada um irá estudar</li>
+            <li>Decidir as tecnologias a serem utilizadas na confecção do projeto</li>
+            <li>Decidir como o grupo irá se organizar a partir do Github</li>
         </ul>
       </li>
       <li>Reuniões 
         <ul>
              <li>Dia 25/03
                   <ul>
-                      <li>Na reunião foi determinado o fechamento da sprint 0 e discutido o que seria implementado na sprint 1.Também foi combinado que cada um estudaria as tecnologias que seria usada durante o projeto conforme as respectivas áreas.</li>
+                      <li>Primeiro, encerramos o período da Sprint 0 e inciamos a nova Sprint.Para a Sprint, decidimos quais tecnologias seriam utilizadas para a construção do projeto. Design | Figma. Front-End | HTML, CSS, JavaScript, React. Frameworks | Django. Back-End | Python.DevOps | Docker, CD/CI Github. Por último, decidimos utilizar da função Projects do Github para termos uma noção de como está o andamento do projeto.</li>
                   </ul>
              </li>
              <li>Dia 29/03
                  <ul>
-                     <li>Foi discutido o que cada um estudou durante a semana e foi repassados os detalhes do projeto.</li>
+                     <li>Reforçamos o que decidimos na primeira reunião e discutimos algumas dǘvidas sobre as documentações.</li>
                  </ul>
              </li>
         </ul>
@@ -67,21 +67,51 @@
       <p>Periodo: 01/04 a 08/04</p>
       <li>Objetivos
         <ul>
-            <li>Criar o Git Page</li>
-            <li>Configurar o ambiente de trabalho</li>
-            <li>Definindo e formatando os requisitos do projeto</li>
+            <li>Definindo as documentações e quem será responsável por cada uma</li>
+            <li>Criação inicial do Github Pages</li>
         </ul>
       </li>
       <li>Reuniões 
         <ul>
              <li>Dia 01/04
                   <ul>
-                      <li>A sprint 1 foi fechada e a sprint 2 aberta,os objetivos e criterios da sprint 2 foi discutida.Também foi orientado para que os integantes configura-se os seus ambientes de trabalho. </li>
+                      <li>Primeiro, fechamos a Sprint 1 e iniciamos o período da Sprint 2.Após isso separamos, por pequenos times, a responsabilidade para cada documentação. Arquitetura | Pedro Henrique. Roadmap | Enrico Zoratto. Storymap  | José Vinícius, Pedro Gois. Id Visual | André Maia, Isabelle da Costa, Mateus Cavati. Também foi iniciada a criação do Github Pages da equipe para armazenar todas as documentações de maneira prática </li>
                   </ul>
              </li>
              <li>Dia 05/04
                  <ul>
-                     <li>Foi discutido o que cada um estudou durante a semana e repassados os detalhes do projeto.Também foi determinado a criação da Git Page.</li>
+                     <li>A equipe iniciou, porém não conseguiu terminar todas as documentações. Portanto, serão entregues na próxima Sprint.</li>
+                 </ul>
+             </li>
+        </ul>
+          
+      </li>
+  </ul>
+  
+</details>
+
+<details style="background-color: #f0f0f0; padding: 30px;" open> 
+  <summary style="font-weigth: bold;">SPRINT 3</summary>
+  <ul>
+      <p>Periodo: 08/04 a 15/04</p>
+      <li>Objetivos
+        <ul>
+            <li>Terminar as documentações restantes</li>
+            <li>Iniciar a confecção da Logo do projeto</li>
+            <li>Iniciar o protótipo do site no Figma</li>
+            <li>Estudar as tecnologias necessárias para o início da construção do projeto</li>
+        </ul>
+      </li>
+      <li>Reuniões 
+        <ul>
+             <li>Dia 08/04
+                  <ul>
+                      <li>Primeiro, terminamos o período da Sprint 2 e iniciamos o período da Sprint 3.Os times apresentaram as documentações de Storymap, Arquitetura e Roadmap. Além disso, definimos coelhos para estudarem alguns temas importantes para a produção do projeto Cultura Transparente. Docker | Pedro Henrique. Scrapper | José Vinícius</li>
+                  </ul>
+             </li>
+             <li>Dia 12/04
+                 <ul>
+                     <li>Foi apresentado para o grupo a logo e a identidade visual do projeto. Além disso, foi apresentado também o primeiro protótipo do Figma do site.Para os coelhos, ficaram de apresentar sobre os temas no encerramento da Sprint dia 15/04.O grupo decidiu trocar a proposta do projeto também. Anteriormente, tinhamos a ideia de usar os dados de todo o país, porém utilizaremos de dados de apenas de um estado - no caso escolhido foi o Rio de Janeiro - e filtraremos por municípios.</li>
                  </ul>
              </li>
         </ul>

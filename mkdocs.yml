@@ -2,6 +2,9 @@ site_name: My Docs
 nav:
   - Home: index.md
   - Sprints: sprints.md
+  - Organização do Projeto: 
+      - Aquitetura: arquitetura.md
+      - Storymap: storymap.md
 
-theme: readthedocs 
+theme: material 
 
