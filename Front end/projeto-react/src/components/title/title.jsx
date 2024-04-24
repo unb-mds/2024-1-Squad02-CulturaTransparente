@@ -10,4 +10,9 @@ export const Container = styled.div`
     font-size: 48px;
     font-family :'Poppins';
 
+    .subtitle{
+        font-size: large;
+        font-size: 90px;
+        font-family :'Poppins';
+    }
     `
