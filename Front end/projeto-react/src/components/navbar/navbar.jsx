@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 
-
 export const Container = styled.div` 
     background-color: #3B4074;
     display: flex;
@@ -50,14 +49,3 @@ export const Container = styled.div`
     }
 
 `;
-
-
-
-
-
-
-
-
-
-
-
