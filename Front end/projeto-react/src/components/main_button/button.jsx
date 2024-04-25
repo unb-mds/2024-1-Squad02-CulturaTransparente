@@ -13,9 +13,9 @@ export const Container = styled.div`
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 5em;
-    width: 600px;
+    width: 25vw;
     height: 100px;
-    font-size: 50px;
+    font-size: 2vw;
     font-weight :bold;
     font-family: sans-serif,NEWAKE;
     }

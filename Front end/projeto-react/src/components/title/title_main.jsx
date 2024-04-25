@@ -6,7 +6,7 @@ const Title = () => {
         <div>
             <Container className="inicio">
                 <div>
-                    <h1>Transparência cultural ao alcance de um clique.</h1>
+                    <h1 className="titulo">Transparência cultural ao alcance de <br /> um clique.</h1>
                 </div>
             </Container>
         </div>

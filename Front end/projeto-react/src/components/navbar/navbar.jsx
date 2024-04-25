@@ -6,23 +6,27 @@ export const Container = styled.div`
     display: flex;
     align-items : center;
     border-radius: 90px;
-    padding: 40px;
-    border-width: 20px;
-    margin-right: 80px; 
-    margin-left: 80px; 
+    padding: 1vw;
+    margin-left: 5%; 
     top : 5%;
-    width: 90%;
+    width: 90vw;
+
+    .logo{
+        width: 11vw;
+        height: auto;
+    }
+
+    .b{
+        background-color: #3B4074;
+        border: none;
+    }
 
     .b1{
         background-color : #3B4074;
         color: #f5ede2;
         border: none;
-        width: 200px;
-        height: 50px;
-        font-size: 50px;
+        font-size: 2.2vw;
         font-family: sans-serif,NEWAKE;
-        margin-left: 450px;
-        margin-right: 50px;
         margin: auto;
     }
     
@@ -31,11 +35,8 @@ export const Container = styled.div`
         background-color : #3B4074;
         color: #f5ede2;
         border: none;
-        width: 200px;
-        height: 50px;
-        font-size: 50px;
+        font-size: 2.2vw;
         font-family: sans-serif,NEWAKE;
-        margin-right: 80px;
         margin: auto;
     }
 
@@ -44,11 +45,8 @@ export const Container = styled.div`
         background-color : #3B4074;
         color: #f5ede2;
         border: none;
-        width: 200px;
-        height: 50px;
-        font-size: 50px;
+        font-size: 2.2vw;
         font-family: sans-serif,NEWAKE;
-        margin-right: 50px;
         margin: auto;
     }
 
