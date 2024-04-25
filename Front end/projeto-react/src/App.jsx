@@ -5,6 +5,7 @@ import Button_search from "./components/main_button/button_main"
 import Sobre from "./components/sobre/sobre_main"
 import Licitacoes from "./components/licitacoes/licitacoes_main"
 import Participantes from "./components/participantes/participantes_main"
+import Footer from "./components/Footer/Footer_main"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +17,7 @@ function App() {
       <Sobre />
       <Licitacoes />
       <Participantes />
-
+      <Footer />
     </div>
   )
 }
