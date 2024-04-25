@@ -5,8 +5,9 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     height: 50vh;
-    margin-right : 40px;
-    margin-left : 40 px;
+    margin: auto;
+    margin-right : auto;
+    margin-left : auto;
     font-size: 48px;
     font-family :'Poppins';
 

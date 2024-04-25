@@ -22,6 +22,7 @@ export const Container = styled.div`
         font-family: sans-serif,NEWAKE;
         margin-left: 450px;
         margin-right: 50px;
+        margin: auto;
     }
     
 
@@ -34,6 +35,7 @@ export const Container = styled.div`
         font-size: 50px;
         font-family: sans-serif,NEWAKE;
         margin-right: 80px;
+        margin: auto;
     }
 
     .b3{
@@ -46,6 +48,7 @@ export const Container = styled.div`
         font-size: 50px;
         font-family: sans-serif,NEWAKE;
         margin-right: 50px;
+        margin: auto;
     }
 
 `;
