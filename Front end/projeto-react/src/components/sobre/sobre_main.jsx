@@ -1,9 +1,10 @@
 import { Container } from "../sobre/sobre"
 import sobre from "../sobre/Sobre.png"
 
+
 const Sobre = () => {
     return (
-        <div>
+        <div id="Sobre">
             <Container className="inicio">
                 <img src={sobre} alt="logo" />
             </Container>

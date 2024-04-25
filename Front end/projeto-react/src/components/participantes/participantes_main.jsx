@@ -3,7 +3,7 @@ import participantes from "../participantes/participantes.png"
 
 const Participantes = () => {
     return (
-        <div>
+        <div id="Participantes">
             <Container className="inicio">
                 <img src={participantes} alt="logo" />
             </Container>
