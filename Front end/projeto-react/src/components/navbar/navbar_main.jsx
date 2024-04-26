@@ -15,7 +15,7 @@ const Navbar = () => {
     const scrollToTop = () =>{
     const logo2 = document.getElementById('logo2');
 
-  logo2.addEventListener('click', function() {
+    logo2.addEventListener('click', function() {
     window.scrollTo({
       top: 0,
       behavior: 'smooth'

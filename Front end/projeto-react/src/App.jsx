@@ -8,7 +8,6 @@ import Participantes from "./components/participantes/participantes_main"
 import Footer from "./components/Footer/Footer_main"
 
 function App() {
-  const [count, setCount] = useState(0)
   return (
     <div>
       <Navbar />
