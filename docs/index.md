@@ -2,7 +2,7 @@
 #Cultura Transparente
 
 ##Sobre 
-O Cultura Transparente é um projeto de desenvolvimento da materia **Métodos de Desenvolvimento de Software**,que tem como objetivo de viabilizar informações relacionadas à cultura no pais 
+O [Cultura Transparente](https://github.com/unb-mds/2024-1-Squad02-CulturaTransparente) é um projeto de desenvolvimento da materia **Métodos de Desenvolvimento de Software**,que tem como objetivo de viabilizar informações relacionadas à cultura no pais 
 
 --------------------
 
