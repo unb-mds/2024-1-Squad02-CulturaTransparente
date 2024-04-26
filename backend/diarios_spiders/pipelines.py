@@ -12,7 +12,7 @@ from scrapy.utils import project
 from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.orm import sessionmaker
 
-from models import Gazette, initialize_database
+from diarios_spiders.models import Gazette, initialize_database
 
 
 class GazetteDateFilteringPipeline:

@@ -10,7 +10,7 @@ from spidermon.contrib.scrapy.monitors import (
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-from extensions import JobStats
+from diarios_spiders.extensions import JobStats
 
 
 @monitors.name("Requests/Items Ratio")
