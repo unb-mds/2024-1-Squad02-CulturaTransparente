@@ -5,7 +5,9 @@ nav:
   - Organização do Projeto: 
       - Aquitetura: arquitetura.md
       - Storymap: storymap.md
+      - Protótipo: prototipo.md 
   - Como Execultar o Projeto?: comoexecultar.md
+  - Como contribuir?: contribuir.md 
 
 theme: material 
 
