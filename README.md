@@ -1,35 +1,39 @@
 # 2024/1 - Squad 2
 
 <div align="center">
-    <img src="documentacoes/logo.png" style="width:20vw"/>
+    <img src="documentacoes/logo-mono1.svg" style="width:100vw"/>
 </div>
 
-#
-## 🔎 Sobre o projeto:
- O Projeto Cultura Transparente surge como uma resposta à necessidade de democratizar o acesso à informação sobre as licenciaturas de cultura no estado do Rio de Janeiro. Nosso objetivo é tornar esse processo mais acessível, facilitado e transparente para todos os interessados.Acreditamos que ao disponibilizar dados claros e acessíveis, estaremos contribuindo para o fortalecimento do setor cultural e educacional do estado, além de fomentar a diversidade e a inclusão.
- 
-#
-## 🗃️ Documentação:
-<p>Para acessar a nossa documentação. <a href="https://unb-mds.github.io/2024-1-Squad02-CulturaTransparente/">Clique aqui.</a></p>
+<hr/>
 
-### Storymap
+## 🔎 Sobre o projeto:
+<p>O Projeto Cultura Transparente surge como uma resposta à necessidade de democratizar o acesso à informação sobre as licenciaturas de cultura no estado do Rio de Janeiro. Nosso objetivo é tornar esse processo mais acessível, facilitado e transparente para todos os interessados.Acreditamos que ao disponibilizar dados claros e acessíveis, estaremos contribuindo para o fortalecimento do setor cultural e educacional do estado, além de fomentar a diversidade e a inclusão.</p>
+
+<hr/>
+ 
+## 🗃️ Documentação:
+<p>Para acessar a nossa documentação completa. <a href="https://unb-mds.github.io/2024-1-Squad02-CulturaTransparente/">Clique aqui.</a></p>
+
+### Storymap:
 <p>Para acessar o nosso Storymap <a href="https://miro.com/app/embed/uXjVKWgMUys=/?pres=1&frameId=3458764585131929503&embedId=688887395072">Clique aqui.</a></p>
 
-### Arquitetura
+### Arquitetura:
 <p>Para acessar a nossa arquitetura <a href="https://miro.com/app/embed/uXjVKXbbl50=/?pres=1&frameId=3458764586354900296&embedId=463635998241">Clique aqui.</a></p>
 
-### Prototipo
+### Prototipo:
 <p>Para acessar o nosso protótipo <a href="https://miro.com/app/embed/uXjVKXbbl50=/?pres=1&frameId=3458764586354900296&embedId=463635998241">Clique aqui.</a></p>
 
-#
-## 🧭 Inicialização
+<hr/>
+
+## 🧭 Inicialização:
 Você pode clonar o repositorio usando o seguinte comando: 
 ```bash
 git clone https://github.com/unb-mds/2024-1-Squad02-CulturaTransparente.git
 ```
 
-#
-### Desenvolvedores 🦺
+<hr/>
+
+## 🦺 Desenvolvedores:
 
 <center>
 <table style="margin-left: auto; margin-right: auto;">
