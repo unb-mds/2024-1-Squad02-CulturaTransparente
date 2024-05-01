@@ -21,7 +21,7 @@
 <p>Para acessar a nossa arquitetura <a href="https://miro.com/app/embed/uXjVKXbbl50=/?pres=1&frameId=3458764586354900296&embedId=463635998241">Clique aqui.</a></p>
 
 ### Prototipo:
-<p>Para acessar o nosso protótipo <a href="https://miro.com/app/embed/uXjVKXbbl50=/?pres=1&frameId=3458764586354900296&embedId=463635998241">Clique aqui.</a></p>
+<p>Para acessar o nosso protótipo <a href="https://www.figma.com/file/0KWEuhLEL5qDUhlmxf48bd/Prot%C3%B3tipo-1.0-mobile?type=design&node-id=0%3A1&mode=design&t=H0b7DD1sUHIRtDXa-1">Clique aqui.</a></p>
 
 <hr/>
 
