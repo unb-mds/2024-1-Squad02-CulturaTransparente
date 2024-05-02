@@ -1,0 +1,5 @@
+services:
+  front_end:
+    build: ./Front end/projeto-react/
+    ports:
+      - "5173:5173"
