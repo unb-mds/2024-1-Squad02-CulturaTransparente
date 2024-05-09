@@ -8,4 +8,4 @@ class RjArraialdoCabopider(BaseInstarSpider):
     name = "rj_arraial_do_cabo"
     allowed_domains = ["arraial.rj.gov.br"]
     base_url = "https://www.arraial.rj.gov.br/portal/diario-oficial"
-    start_date = datetime.date(2019, 2, 7)
+    start_date = datetime.date(2023, 1, 1)
