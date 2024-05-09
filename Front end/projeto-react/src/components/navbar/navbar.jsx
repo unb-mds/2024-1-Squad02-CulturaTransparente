@@ -1,8 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div` 
-    position: fixed;
-    background-color: #3B4074;
+    background-color: #7A41C9;
     display: flex;
     align-items : center;
     border-radius: 90px;
@@ -10,20 +9,23 @@ export const Container = styled.div`
     margin-left: 5%; 
     top : 5%;
     width: 90vw;
+    height: 50vh;
 
     .logo{
+        border-radius: 90px;
+        background-color: #000000;
         width: 11vw;
         height: auto;
     }
 
     .b{
-        background-color: #3B4074;
+        background-color: #7A41C9;
         border: none;
     }
 
     .b1{
-        background-color : #3B4074;
-        color: #f5ede2;
+        background-color : #7A41C9;
+        color: #000000;
         border: none;
         font-size: 2.2vw;
         font-family: sans-serif,NEWAKE;
@@ -32,8 +34,8 @@ export const Container = styled.div`
     
 
     .b2{
-        background-color : #3B4074;
-        color: #f5ede2;
+        background-color : #7A41C9;
+        color: #000000;
         border: none;
         font-size: 2.2vw;
         font-family: sans-serif,NEWAKE;
@@ -42,8 +44,8 @@ export const Container = styled.div`
 
     .b3{
 
-        background-color : #3B4074;
-        color: #f5ede2;
+        background-color : #7A41C9;
+        color: #000000;
         border: none;
         font-size: 2.2vw;
         font-family: sans-serif,NEWAKE;

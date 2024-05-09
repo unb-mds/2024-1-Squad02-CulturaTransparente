@@ -11,8 +11,6 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Title />
-      <Button_search />
       <Sobre />
       <Licitacoes />
       <Participantes />

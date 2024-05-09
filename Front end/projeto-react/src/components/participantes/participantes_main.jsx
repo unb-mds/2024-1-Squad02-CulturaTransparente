@@ -1,5 +1,5 @@
 import { Container } from "../participantes/participantes"
-import participantes from "../participantes/participantes.png"
+import participantes from "../participantes/Equipe.png"
 
 const Participantes = () => {
     return (
