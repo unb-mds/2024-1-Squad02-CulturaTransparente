@@ -1,23 +1,22 @@
-#Arquitetura
+# Documento de Arquitetura
+Esse é o documento em que detalhamos a arquitetura do nosso software, explicando tecnologias e funcionalidades.
 
-Este projeto segue 2 camadas de arquitetura,são elas o Back-End e o Front-End:
+## Introdução
+O projeto Cultura Transparente tem o objetivo de exibir aos usuários do site como o dinheiro do estado do Rio de Janeiro vem sendo gasto nas diferentes formas culturais.
 
-<div style="text-align:center;">
-  <iframe width="768" height="432" src="https://miro.com/app/embed/uXjVKXbbl50=/?pres=1&frameId=3458764586354900296&embedId=463635998241" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
-</div>
+### Diagrama de Arquitetura
+Para acessar o nosso diagrama, clique [aqui](https://miro.com/app/board/uXjVKXbbl50=/#tpicker-content)!
 
+### Tecnologias
+O Software consiste em algumas camadas com tecnologias diferentes, abaixo apresentamos cada uma delas.
+#### Camada de apresentação
+A camada de apresentação, ou o front-end, é responsável por interagir com o usuário e exibir os dados que ele deseja através das análises feitas sobre os arquivos coletados pelo Scrapper.
+As tecnologias usadas nessa camada são JavaScript, NodeJs e o framework React.
 
-# - Back-End 
-O Bank-End consiste na pequisa e seleção, no webscraping e o tratamento de dados. Para isto foi decidido que a tecnologia principal utilizada seria o Django, que é um  framework que permite construir diversos APIs usando o Pyhton.
+#### Coleta e análise de dados
+A coleta de dados funciona usando um web-scrapping que baixa os arquivos diretamente dos sites dos diários oficiais dos municípios do Rio de Janeiro usando as tecnologias e bibliotecas
+do Python. Após o download, ocorre a análise de dados dos arquivos baixados usando REGEX, em Python também.
 
-#
-#
-
-# - Front-End
-Na camada do Front-End onde vai ficar toda a interação do usuario com o sistema foi descedido que as tecnologias utilizadas seria o HTML e CSS, Javascript e o React.
-
-#
-#
-
-# - DevOps 
-Para a operações que é responsavel pela qualidade da entrega do projeto foi descedido que seria utilizado o Docker e o  CD/CI Github
+#### Aplicação
+Nós utilizaremos o Docker para que todos possam rodar o projeto com as dependências corretas e em sistemas operacionais diferentes, tendo em vista que
+não é sempre que todos tem o mesmo versionamento de uma dependência ou outra, e a tecnologia do Docker permite evitar esse problemas e por isso estaremos utilizando.
