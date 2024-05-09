@@ -1,4 +1,5 @@
-#Como Execultar o Projeto?
+#Como Executar o Projeto?
+
 Para clonar o repositorio do projeto execulte o seguinte comando:
 
 ```bash
