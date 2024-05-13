@@ -6,6 +6,7 @@ nav:
       - Aquitetura: arquitetura.md
       - Storymap: storymap.md
       - Protótipo: prototipo.md 
+  - Como Executar?: comoexecutar.md
   - Como contribuir?: contribuir.md 
 
 theme: material 
