@@ -12,7 +12,7 @@ class RjNiteroiSpider(BaseGazetteSpider):
     allowed_domains = ["niteroi.rj.gov.br"]
     start_urls = ["http://www.niteroi.rj.gov.br"]
     download_url = "http://www.niteroi.rj.gov.br/wp-content/uploads/do/{}/{}/{:02d}.pdf"
-    start_date = dt.date(2003, 7, 1)
+    start_date = dt.date(2023, 1, 1)
     end_date = dt.date.today()
 
     month_names = [

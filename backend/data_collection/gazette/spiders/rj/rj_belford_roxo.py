@@ -13,7 +13,7 @@ class RjBelfordRoxoSpider(BaseGazetteSpider):
     allowed_domains = ["transparencia.prefeituradebelfordroxo.rj.gov.br"]
     BASE_URL = "https://transparencia.prefeituradebelfordroxo.rj.gov.br/webrun/WEB-ObterAnexo.rule?sys=LAI&codigo={ATTACHMENT_CODE}"
 
-    start_date = date(2019, 1, 2)
+    start_date = date(2023, 1, 1)
 
     def start_requests(self):
         url = "https://transparencia.prefeituradebelfordroxo.rj.gov.br/diario_oficial_get.php"

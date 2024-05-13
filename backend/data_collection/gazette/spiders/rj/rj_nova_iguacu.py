@@ -11,7 +11,7 @@ class RjNovaIguacu(BaseGazetteSpider):
     TERRITORY_ID = "3303500"
     name = "rj_nova_iguacu"
     allowed_domains = ["novaiguacu.rj.gov.br"]
-    start_date = dt.date(2014, 1, 6)
+    start_date = dt.date(2023, 1, 1)
     BASE_URL = "https://www.novaiguacu.rj.gov.br/diario-oficial/"
 
     def start_requests(self):
