@@ -45,7 +45,7 @@ def salvar_somas_por_municipio(pasta, somas_por_municipio):
         with open(caminho_arquivo_soma, 'w', encoding='utf-8') as f:
             f.write(str(soma))
 
-pasta = 'C:\\Users\\enric\\OneDrive\\Documentos\\Python\\2024-1-Squad02-CulturaTransparente\\backend\\arquivos_renomeados'
+pasta = "./data_collection/gazette/spiders/rj/data"
 
 somas_por_municipio = agrupar_valores_por_municipio(pasta)
 
