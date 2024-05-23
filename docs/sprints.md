@@ -266,3 +266,42 @@
   </ul>
   
 </details>
+
+<details style="background-color: #f0f0f0; padding: 30px;" open> 
+  <summary style="font-weigth: bold;">SPRINT 7</summary>
+  <ul>
+      <p>Período: 06/05 a 13/05</p>
+      <li>Objetivos
+        <ul>
+            <li>Complementar o documento de Arquitetura seguindo as recomendações da professora na apresentação da R1;</li>
+            <li>Começar a construção do front-end de acordo com o novo protótipo do Figma realizado na última Sprint;</li>
+            <li>Começar a construção do front-end de acordo com o novo protótipo do Figma realizado na última Sprint;</li>
+            <li>Estudar Regex para a filtragem dos dados para quando a conversão dos arquivos TXT estiverem prontos;</li>
+            <li>Criar a segunda tela do projeto no Figma.</li>
+        </ul>
+      </li>
+      <li>Reuniões 
+        <ul>
+             <li>Dia 06/05
+                  <ul>
+                      <li>O integrante Pedro Henrique continua responsável pela complementação do documento de Arquitetura do projeto.</li>
+                      <li>A equipe do front-end irá atualizar a página incial do Cultura Transparente, seguindo o novo Design realizado no Figma.</li>
+                      <li>niciado na Sprint passada, a equipe do back-end inciou a conversão dos arquivos PDFs colhidos pelo Scrapy para TXT para comerçarmos o tratamento de dados, porém a mesma decidiu entregar apenas nesta Sprint, para poderem fazer com mais calma e precisão.</li>
+                      <li>O integrante Enrico Zoratto ficará responsável por estudar Regex, para poder utilizar deste conhecimento na filtragem dos dados dos arquivos TXT.</li>
+                      <li>Por fim, a integrante Isabelle Costa continuará seu trabalho no Figma, mas agora fazendo o protótipo de alta fidelidade da segunda página com o Dashboard contendo os dados que pretendemos mostrar para o usuário no site do Cultura Transparente.</li>
+                  </ul>
+             </li>
+             <li>Dia 10/05
+                 <ul>
+                     <li>Reunião não realizada</li>
+                 </ul>
+             </li>
+             <li> Conclusão
+                <ul>
+                  <li>O Documento de arquitetura foi atualizado devidamente, seguindo as recomendações dadas na apresentação da R1, a conversão dos arquivos PDFs coletados pelo Scrapy para TXT está sendo realizado aos poucos e foi acordado com o grupo de ser entregue pronto na próxima sprint. A construção da home page do site também está sendo construída, de acordo com o protótipo do Figma.</li>
+                </ul>
+             </li>
+        </ul>
+  </ul>
+  
+</details>
