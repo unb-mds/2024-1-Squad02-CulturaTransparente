@@ -1,7 +1,7 @@
 #!/bin/bash
 
-pasta_convertidos="./convertidos"
-pasta_final="./arquivos_renomeados"
+pasta_convertidos="../.gitignore/convertidos"
+pasta_final="../.gitignore/arquivos_renomeados"
 
 # Função para obter o nome do município a partir do código
 obter_nome_municipio(){
@@ -47,7 +47,8 @@ renomear_arquivos(){
                     fi
                 done
             fi 
-        done 
+        done
+        rm -r "$pasta_convertidos"
     fi 
 }
 
