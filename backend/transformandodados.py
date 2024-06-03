@@ -23,15 +23,16 @@ def verNomeMunicipio(arquivo):
 def regex_por_municipio(municipio):
     """Retorna a regex específica para cada município."""
     regex_dict = {
-        'arraial do cabo': r'R\$\s*((?:\d+\.\d+|\d+\.\d*|\.\d+|\d+,\d+))\b',
-        'belford roxo': r'R\$\s*((?:\d+\.\d+|\d+\.\d*|\.\d+|\d+,\d+))\b',
-        'niteroi': r'R\$\s*((?:\d+\.\d+|\d+\.\d*|\.\d+|\d+,\d+))\b',
-        'nova iguaçu': r'R\$\s*((?:\d+\.\d+|\d+\.\d*|\.\d+|\d+,\d+))\b',
-        'rio de janeiro': r'R\$\s*((?:\d+\.\d+|\d+\.\d*|\.\d+|\d+,\d+))\b',
-        'são josé de mereti': r'R\$\s*((?:\d+\.\d+|\d+\.\d*|\.\d+|\d+,\d+))\b',
+        'arraial do cabo': r'Secretaria Municipal de Educação, Cultura, Ciência e Tecnologia.*R\$\s*((?:\d+\.\d+|\d+\.\d*|\.\d+|\d+,\d+))\b',
+        'belford roxo': r'SECRETARIA MUNICIPAL DE CULTURA.*R\$\s*((?:\d+\.\d+|\d+\.\d*|\.\d+|\d+,\d+))\b',
+        'niteroi': r'SECRETARIA MUNICIPAL DAS CULTURAS.*R\$\s*((?:\d+\.\d+|\d+\.\d*|\.\d+|\d+,\d+))\b',
+        'nova iguaçu': r'Secretaria Municipal de Cultura.*?(\d{1,3}(?:\.\d{3})*,\d{2})\b',
+        'rio de janeiro': r'SECRETARIA MUNICIPAL DE CULTURA.*R\$\s*((?:\d+\.\d+|\d+\.\d*|\.\d+|\d+,\d+))\b',
+        'são josé de mereti': r'Secretaria municipal de educação, cultura e turismo.*R\$\s*((?:\d+\.\d+|\d+\.\d*|\.\d+|\d+,\d+))\b',
     }
-    # Retorna a regex correspondente ao município, ou uma regex padrão
-    return regex_dict.get(municipio, r'R\$\s*((?:\d+\.\d+|\d+\.\d*|\.\d+|\d+,\d+))\b')
+    # Retorna a regex correspondente ao município, ou uma regex padrão que inclui 'PREFEITURA MUNICIPAL' como prefixo
+    return regex_dict.get(municipio, r'Secretaria municipal.*R\$\s*((?:\d+\.\d+|\d+\.\d*|\.\d+|\d+,\d+))\b')
+
 
 def formatar_valor(valor):
     """Formata o valor como string, substituindo ponto por vírgula e adicionando pontos para separação de milhar."""
@@ -72,11 +73,10 @@ def salvar_somas_por_municipio(pasta, somas_por_municipio):
         with open(caminho_arquivo_soma, 'w', encoding='utf-8') as f:
             f.write(f'{soma_formatada}\n')
 
-# Caminho para a pasta contendo os arquivos
+
 pasta = './2024-1-Squad02-CulturaTransparente/backend/arquivos_nomeados'
 
-# Agrupa os valores por município
 somas_por_municipio = agrupar_valores_por_municipio(pasta)
 
-# Salva as somas formatadas em arquivos separados por município
+
 salvar_somas_por_municipio(pasta, somas_por_municipio)
