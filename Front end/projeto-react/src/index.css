@@ -7,3 +7,8 @@
 body {
   background-color: #252424;
 }
+
+@font-face {
+  font-family: 'Newake';
+  src: url(../assets/fonts/NewakeFont-Demo.otf);
+}

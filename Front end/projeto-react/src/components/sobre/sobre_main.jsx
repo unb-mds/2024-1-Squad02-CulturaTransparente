@@ -1,5 +1,5 @@
 import { Container } from "./sobre"
-import sobre from "../../../assets/Sobre.png"
+import sobre from "../../../assets/images/Sobre.png"
 
 
 const Sobre = () => {

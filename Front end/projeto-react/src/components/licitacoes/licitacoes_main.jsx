@@ -1,5 +1,5 @@
 import { Container } from "../licitacoes/licitacoes"
-import licitacoes from "../../../assets/Licitações.png"
+import licitacoes from "../../../assets/images/Licitações.png"
 
 const Licitacoes = () => {
     return (

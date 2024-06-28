@@ -1,7 +1,7 @@
 import { Container } from "./Footer"
-import logo from "../../../assets/unb_image.png"
-import logo2 from "../../../assets/FGA_artigos3x(1).png"
-import github from "../../../assets/github.png"
+import logo from "../../../assets/images/unb_image.png"
+import logo2 from "../../../assets/images/FGA_artigos3x(1).png"
+import github from "../../../assets/images/github.png"
 
 
 

@@ -1,4 +1,4 @@
-import logo from "../../../assets/Logo-cabecalho.png"
+import logo from "../../../assets/images/Logo-cabecalho.png"
 import { Container } from "../navbar/navbar"
 import { NavBar } from "../navbar/navbar";
 

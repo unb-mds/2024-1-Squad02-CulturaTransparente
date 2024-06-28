@@ -4,11 +4,13 @@ import Sobre from "./components/sobre/sobre_main"
 import Licitacoes from "./components/licitacoes/licitacoes_main"
 import Participantes from "./components/participantes/participantes_main"
 import Footer from "./components/Footer/Footer_main"
+import Inicial from "./components/Inicial/inicial_main"
 
 function App() {
   return (
     <div>
       <Navbar />
+      <Inicial/>
       <Sobre />
       <Licitacoes />
       <Participantes />
