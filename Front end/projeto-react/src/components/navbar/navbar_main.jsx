@@ -30,7 +30,7 @@ const Navbar = () => {
         const Licitacoes = document.getElementById('Licitacoes');
         if (Licitacoes) {
             window.scrollTo({
-                top: 1700,
+                top: 1500,
                 behavior: 'smooth'
             });
         }
