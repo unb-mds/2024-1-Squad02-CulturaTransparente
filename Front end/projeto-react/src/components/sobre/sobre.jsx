@@ -1,11 +1,44 @@
 import styled from 'styled-components'
 
-export const Container = styled.div` 
+export const Container = styled.div`
+    position: relative;
     display: flex;
-    justify-content: center;
-    margin:auto;
-    margin-top: 90px;
-    width: 80vh; 
-    height: 40vw;
-    margin-bottom: 5em;
+    margin-top: 150px;
+    margin-left: 250px;
     `
+    
+    export const About = styled.div`
+    .text_box{
+        margin-top: 32px;
+        position: absolute;
+        left: 600px;
+        top: -100px;
+        border-radius: 40.82px;
+        border: 0.91px;
+    }
+        .about_text_title{
+        position: absolute;
+        margin-top: 32px;
+        top: -25px;
+        left: 631.75px;
+        font-family: Poppins;
+        font-weight: 700;
+        font-size: 72.56px;
+        color: #B27100
+        }
+
+        .about_text{
+        position: absolute;
+        margin-top: 32px;
+        width: 520.63px;
+        height: 273.01px;
+        top: 72.05px;
+        left: 631.75px;
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 18.14px;
+        color: #B27100;
+        text-align: justify;
+        }
+    
+    }`;

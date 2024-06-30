@@ -1,57 +1,84 @@
 import styled from 'styled-components'
 
-export const Container = styled.div` 
-    background-color: #7A41C9;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    border-radius: 90px;
-    padding: 0.5vw;
-    margin: 0 auto; 
-    position: relative; 
-    top: 5%;
-    width: 80vw;
-    height: 10vh;
+export const NavBar = styled.div` 
+background-color: #7A41C9;
+width: 931px;
+height: 60px;
+top: 32px;
+left: 446px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 0px;
+border-radius: 70px;
+color: white;
+padding: 0 20px;
 
-    .logo{
-        border-radius: 90px;
-        background-color: #000000;
-        width: 11vw;
-        height: auto;
+.b1{
+    background-color : #7A41C9;
+    color: #000000;
+    font-size: 20px;
+    gap: 10px;
+    padding: 10px;
+    border: none;
+    font-family: poppins;
+    margin: auto;
+    font-weight: 600;
     }
-
-    .b{
-        background-color: #7A41C9;
-        border: none;
-    }
-
-    .b1{
-        background-color : #7A41C9;
-        color: #000000;
-        border: none;
-        font-size: 2.2vw;
-        font-family: sans-serif,NEWAKE;
-        margin: auto;
-    }
+            
     
-
     .b2{
         background-color : #7A41C9;
         color: #000000;
         border: none;
-        font-size: 2.2vw;
-        font-family: sans-serif,NEWAKE;
+        font-size: 20px;
+        font-family: Poppins;
         margin: auto;
-    }
-
-    .b3{
-
+        widht: 59px;
+        padding: 10px;
+        gap: 10px
+        line-height: 30px;
+        font-weight: 600;
+        }
+        
+        .b3{
+            
         background-color : #7A41C9;
         color: #000000;
         border: none;
-        font-size: 2.2vw;
-        font-family: sans-serif,NEWAKE;
+        font-size: 20px;
+        font-family: poppins;
         margin: auto;
-    }
+        font-weight: 600;
+        }
+        
+        .b4{
+            background-color : #7A41C9;
+            color: #000000;
+            border: none;
+            font-size: 20px;
+            font-family: poppins;
+            margin: auto;
+            font-weight: 600;
+            }
+            
+            `;
 
-`;
+export const Container = styled.div`
+margin-top: 32px;
+display: flex;
+justify-content: center;
+    background-color: #252424;
+    top: 28px;
+    left: 85px;
+    height 70.5px;
+    widht: 295.37px;
+
+    .b{
+        font-family: poppins;
+        font-size: 20px;
+        font-weight:600;
+        background-color: #252424;
+        border: none;
+        };
+}`;

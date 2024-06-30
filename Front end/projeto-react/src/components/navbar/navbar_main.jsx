@@ -1,6 +1,8 @@
-import logo from "../navbar/Logo-cabecalho.png"
+import logo from "../../../assets/images/Logo-cabecalho.png"
 import { Container } from "../navbar/navbar"
 import { Link } from "react-router-dom";
+import { NavBar } from "../navbar/navbar";
+
 
 
 const Navbar = () => {
@@ -30,6 +32,7 @@ const Navbar = () => {
         if (Licitacoes) {
             window.scrollTo({
                 top: 1000,
+                top: 1500,
                 behavior: 'smooth'
             });
         }
@@ -49,9 +52,12 @@ const Navbar = () => {
         <div>
             <Container className="inicio">
                 <button id="logo2" className="b" onClick={scrollToTop}> <img src={logo} alt="logo" className="logo" /> </button>
-                <button className="b1" onClick={scrollToSobre}>Sobre</button>
-                <button className="b2" onClick={scrollToLicitacoes}>Licitações</button>
-                <button className="b3" onClick={scrollToFooter}>Participantes</button>
+                <NavBar>
+                    <button className="b1" onClick={scrollToSobre}>Sobre</button>
+                    <button className="b2" onClick={scrollToLicitacoes}>Informações</button>
+                    <button className="b3" onClick={scrollToFooter}>Equipe</button>
+                    <button className="b4">Licitações</button>
+                </NavBar>
             </Container>
         </div>
     );
