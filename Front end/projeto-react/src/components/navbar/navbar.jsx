@@ -3,13 +3,15 @@ import styled from 'styled-components'
 export const Container = styled.div` 
     background-color: #7A41C9;
     display: flex;
-    align-items : center;
+    align-items: center;
+    justify-content: center; 
     border-radius: 90px;
-    padding: 1vw;
-    margin-left: 5%; 
-    top : 5%;
-    width: 90vw;
-    height: 50vh;
+    padding: 0.5vw;
+    margin: 0 auto; 
+    position: relative; 
+    top: 5%;
+    width: 80vw;
+    height: 10vh;
 
     .logo{
         border-radius: 90px;

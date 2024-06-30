@@ -1,6 +1,6 @@
 import logo from "../navbar/Logo-cabecalho.png"
 import { Container } from "../navbar/navbar"
-
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -8,7 +8,7 @@ const Navbar = () => {
         const Sobre = document.getElementById('Sobre');
         if (Sobre) {
             window.scrollTo({
-                top: 800,
+                top: 200,
                 behavior: 'smooth'
             });
         }
@@ -29,7 +29,7 @@ const Navbar = () => {
         const Licitacoes = document.getElementById('Licitacoes');
         if (Licitacoes) {
             window.scrollTo({
-                top: 1700,
+                top: 1000,
                 behavior: 'smooth'
             });
         }
@@ -39,7 +39,7 @@ const Navbar = () => {
         const Participantes = document.getElementById('Participantes');
         if (Participantes) {
             window.scrollTo({
-                top: 2500,
+                top: 1800,
                 behavior: 'smooth'
             });
             Participantes.scroll
