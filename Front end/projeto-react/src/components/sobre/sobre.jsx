@@ -6,8 +6,8 @@ export const Container = styled.div`
     margin-top: 150px;
     margin-left: 250px;
     `
-    
-    export const About = styled.div`
+
+export const About = styled.div`
     .text_box{
         margin-top: 32px;
         position: absolute;
@@ -41,4 +41,4 @@ export const Container = styled.div`
         text-align: justify;
         }
     
-    }`;
+    `

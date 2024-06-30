@@ -1,9 +1,6 @@
-import logo from "../../../assets/images/Logo-cabecalho.png"
-import { Container } from "../navbar/navbar"
-import { Link } from "react-router-dom";
-import { NavBar } from "../navbar/navbar";
-
-
+import logo from "../../../assets/images/Logo-cabecalho.png";
+import { Container } from "../navbar/navbar";
+import { NavBar, StyledLink } from "../navbar/navbar";
 
 const Navbar = () => {
     const scrollToSobre = () => {
@@ -26,13 +23,11 @@ const Navbar = () => {
         })
     };
 
-
     const scrollToLicitacoes = () => {
         const Licitacoes = document.getElementById('Licitacoes');
         if (Licitacoes) {
             window.scrollTo({
                 top: 1000,
-                top: 1500,
                 behavior: 'smooth'
             });
         }
@@ -45,9 +40,9 @@ const Navbar = () => {
                 top: 1800,
                 behavior: 'smooth'
             });
-            Participantes.scroll
         }
     };
+
     return (
         <div>
             <Container className="inicio">
@@ -56,7 +51,7 @@ const Navbar = () => {
                     <button className="b1" onClick={scrollToSobre}>Sobre</button>
                     <button className="b2" onClick={scrollToLicitacoes}>Informações</button>
                     <button className="b3" onClick={scrollToFooter}>Equipe</button>
-                    <button className="b4">Licitações</button>
+                    <StyledLink to="/grafico" className="b4">Licitações</StyledLink>
                 </NavBar>
             </Container>
         </div>

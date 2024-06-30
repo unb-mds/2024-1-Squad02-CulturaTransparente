@@ -1,84 +1,63 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
-export const NavBar = styled.div` 
-background-color: #7A41C9;
-width: 931px;
-height: 60px;
-top: 32px;
-left: 446px;
-display: flex;
-align-items: center;
-justify-content: space-between;
-gap: 0px;
-border-radius: 70px;
-color: white;
-padding: 0 20px;
-
-.b1{
-    background-color : #7A41C9;
-    color: #000000;
-    font-size: 20px;
-    gap: 10px;
-    padding: 10px;
-    border: none;
-    font-family: poppins;
+export const NavBar = styled.div`
+    background-color: #7A41C9;
+    width: 100%;
+    max-width: 931px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px;
+    border-radius: 70px;
+    color: white;
+    padding: 0 20px;
     margin: auto;
-    font-weight: 600;
-    }
-            
-    
-    .b2{
-        background-color : #7A41C9;
+
+    .b1, .b2, .b3 {
+        background-color: #7A41C9;
         color: #000000;
-        border: none;
         font-size: 20px;
-        font-family: Poppins;
-        margin: auto;
-        widht: 59px;
         padding: 10px;
-        gap: 10px
-        line-height: 30px;
-        font-weight: 600;
-        }
-        
-        .b3{
-            
-        background-color : #7A41C9;
-        color: #000000;
         border: none;
-        font-size: 20px;
-        font-family: poppins;
-        margin: auto;
+        font-family: Poppins;
         font-weight: 600;
-        }
-        
-        .b4{
-            background-color : #7A41C9;
-            color: #000000;
-            border: none;
-            font-size: 20px;
-            font-family: poppins;
-            margin: auto;
-            font-weight: 600;
-            }
-            
-            `;
+        flex: 1; /* Allow the buttons to grow and shrink */
+        text-align: center; /* Center the text inside the buttons */
+        margin: 0 10px; /* Add margin between buttons */
+    }
+`;
 
 export const Container = styled.div`
-margin-top: 32px;
-display: flex;
-justify-content: center;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #252424;
-    top: 28px;
-    left: 85px;
-    height 70.5px;
-    widht: 295.37px;
+    height: 70.5px;
+    width: 100%; /* Use the full width available */
+    padding: 0 20px; /* Add padding to the container */
 
-    .b{
-        font-family: poppins;
+    .b {
+        font-family: Poppins;
         font-size: 20px;
-        font-weight:600;
+        font-weight: 600;
         background-color: #252424;
         border: none;
-        };
-}`;
+    }
+`;
+
+export const StyledLink = styled(Link)`
+    background-color: #7A41C9;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    font-family: Poppins;
+    font-weight: 600;
+    flex: 1; /* Allow the link to grow and shrink */
+    text-align: center; /* Center the text inside the link */
+    margin: 0 10px; /* Add margin between links */
+    text-decoration: none; /* Remove underline */
+`;
