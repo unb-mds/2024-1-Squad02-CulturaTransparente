@@ -1,25 +1,23 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
-export const Container = styled.div` 
+export const Container = styled.div`
+    display: flex;
+    justify-content: flex-start; /* Alinha o botão à esquerda */
+    align-items: center;
+    background-color: #252424;
+    height: 100px; /* Aumentar a altura */
+    padding: 20px; /* Adicionar padding ao container */
+    margin-top: 20px; /* Adicionar margem superior */
 
-    .bs{
-    background-color: #019855;
-    color: black;
-    border: none;
-    border-radius: 90px;
-    display: block;
+    button {
+        margin-left: 10px; /* Adiciona uma pequena margem à esquerda */
+        background: none; /* Remove o background padrão do botão */
+        border: none; /* Remove a borda */
+        padding: 0; /* Remove o padding interno */
+        cursor: pointer; /* Adiciona um cursor pointer */
 
-    margin: auto;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 5em;
-    width: 25vw;
-    height: 100px;
-    font-size: 2vw;
-    font-weight :bold;
-    font-family: sans-serif,NEWAKE;
+        .logo {
+            height: 100%; /* Ajusta a altura da imagem para ocupar toda a altura do botão */
+        }
     }
-    `
-
-
-
+`;
