@@ -16,6 +16,7 @@ export const NavBar = styled.div`
     margin: auto;
 
     .b1, .b2, .b3 {
+        cursor: pointer;
         background-color: #7A41C9;
         color: #000000;
         font-size: 20px;
@@ -36,10 +37,11 @@ export const Container = styled.div`
     align-items: center;
     background-color: #252424;
     height: 70.5px;
-    width: 100%; /* Use the full width available */
-    padding: 0 20px; /* Add padding to the container */
+    width: 100%;
+    padding: 0 20px; 
 
     .b {
+        cursor: pointer;
         font-family: Poppins;
         font-size: 20px;
         font-weight: 600;
@@ -56,8 +58,8 @@ export const StyledLink = styled(Link)`
     border: none;
     font-family: Poppins;
     font-weight: 600;
-    flex: 1; /* Allow the link to grow and shrink */
-    text-align: center; /* Center the text inside the link */
-    margin: 0 10px; /* Add margin between links */
-    text-decoration: none; /* Remove underline */
+    flex: 1; 
+    text-align: center; 
+    margin: 0 10px; 
+    text-decoration: none; 
 `;
