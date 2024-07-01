@@ -90,7 +90,7 @@ def salvar_somas_por_municipio_e_mes(pasta, somas_por_municipio_ano_mes):
                     json.dump(dados_json, f, ensure_ascii=False, indent=4)
 
 # Substitua pelo caminho da sua pasta de arquivos
-pasta = "C:\\Users\\enric\\OneDrive\\Documentos\\Programas\\oioi\\arquivos_renomeados"
+pasta = "./2024-1-Squad02-CulturaTransparente/backend/arquivos_nomeados"
 
 somas_por_municipio_e_mes = agrupar_valores_por_municipio_e_mes(pasta)
 
