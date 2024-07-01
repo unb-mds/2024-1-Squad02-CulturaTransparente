@@ -4,10 +4,6 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5rem;
-
-    .image{
-    }
 
     .about_text_title{
         transform: translate(-70%, -520%);
@@ -18,7 +14,6 @@ export const Container = styled.div`
         font-weight: 700;
         font-size: 73.61px;
         left: 430px;
-        top: 1680px;
         color: #1E503F;
     }
 
@@ -30,7 +25,6 @@ export const Container = styled.div`
         font-weight: 400;
         font-size: 18.14px;
         left: 300px;
-        top: 1765px;
         color: #1E503F;
         text-align: justify;   
     }
