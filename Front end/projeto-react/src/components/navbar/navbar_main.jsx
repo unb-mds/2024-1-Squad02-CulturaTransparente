@@ -27,7 +27,7 @@ const Navbar = () => {
         const Licitacoes = document.getElementById('Licitacoes');
         if (Licitacoes) {
             window.scrollTo({
-                top: 1500,
+                top: 1750,
                 behavior: 'smooth'
             });
         }
@@ -37,7 +37,7 @@ const Navbar = () => {
         const Participantes = document.getElementById('Participantes');
         if (Participantes) {
             window.scrollTo({
-                top: 2350,
+                top: 2750,
                 behavior: 'smooth'
             });
         }
