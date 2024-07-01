@@ -3,11 +3,20 @@ import styled from 'styled-components'
 export const Container = styled.div`
     position: relative;
     display: flex;
-    margin-top: 150px;
     margin-left: 250px;
+    @media (max-width: 768px) {
+        margin-left: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    @media (max-width: 992px) {
+        margin-left: 150px;
+    }
     `
 
 export const About = styled.div`
+
     .text_box{
         margin-top: 32px;
         position: absolute;

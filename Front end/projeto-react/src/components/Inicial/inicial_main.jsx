@@ -7,7 +7,7 @@ const Inicial = () => {
         <Container>
         <img src={imagem} alt="initial_banner" classname="image"/>
         <a className='principal_text'>Transparência cultural ao <br/>alcance de um clique.</a>
-        <button className='button'>clique aqui</button>
+        <button to="/grafico" className='button'>clique aqui</button>
         </Container>
     </div>       
     )

@@ -7,7 +7,7 @@ const Navbar = () => {
         const Sobre = document.getElementById('Sobre');
         if (Sobre) {
             window.scrollTo({
-                top: 200,
+                top: 800,
                 behavior: 'smooth'
             });
         }
@@ -27,7 +27,7 @@ const Navbar = () => {
         const Licitacoes = document.getElementById('Licitacoes');
         if (Licitacoes) {
             window.scrollTo({
-                top: 1000,
+                top: 1500,
                 behavior: 'smooth'
             });
         }
@@ -37,7 +37,7 @@ const Navbar = () => {
         const Participantes = document.getElementById('Participantes');
         if (Participantes) {
             window.scrollTo({
-                top: 1800,
+                top: 2350,
                 behavior: 'smooth'
             });
         }
