@@ -14,7 +14,7 @@ export const Container = styled.div`
     
     .titulo{
         font-weight: 700;
-        font-size: 72.56px;
+        font-size: 4rem;
         color: white;
         font-family: Poppins;
         padding-bottom: 5%;
