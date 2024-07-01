@@ -4,11 +4,13 @@ import participantes from "../../../assets/images/Equipe.png"
 const Participantes = () => {
     return (
         <div id="Participantes">
-            <div>
-                <h2 className="titulo">Nossa Equipe</h2>
-            </div>
             <Container className="inicio">
-                <img src={participantes} alt="logo" />
+                <div className="titulo">
+                    <h2 className="titulo__texto">Nossa Equipe</h2>
+                </div>
+                <div>
+                    <img src={participantes} alt="logo" />
+                </div>
             </Container>
         </div>
     )
