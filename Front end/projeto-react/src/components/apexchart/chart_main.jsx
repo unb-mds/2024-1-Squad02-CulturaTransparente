@@ -46,7 +46,7 @@ export default function Chart() {
                 return val.toFixed(2) + ' M';
             }
         },
-        colors: ['#008FFB', '#00E396', '#FEB019', '#FF4560', '#775DD0', '#3F51B5', '#546E7A', '#D4526E', '#8D5B4C', '#FED219', '#357A38', '#F9CE1D'],
+        colors: ['#FFCA00', '#874FD4', '#64BA8B', '#FFCA00', '#874FD4', '#64BA8B', '#FFCA00', '#874FD4', '#64BA8B', '#FFCA00', '#874FD4', '#64BA8B'],
         grid: {
             padding: {
                 left: 20, // Adiciona margem à esquerda do gráfico
