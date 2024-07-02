@@ -10,11 +10,14 @@ export const Container = styled.div`
     margin-top: 20px; /* Adicionar margem superior */
 
     button {
-        margin-left: 10px; /* Adiciona uma pequena margem à esquerda */
-        background: none; /* Remove o background padrão do botão */
-        border: none; /* Remove a borda */
-        padding: 0; /* Remove o padding interno */
-        cursor: pointer; /* Adiciona um cursor pointer */
+        
+
+        cursor: pointer;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 600;
+        background-color: #252424;
+        border: none;
 
         .logo {
             height: 100%; /* Ajusta a altura da imagem para ocupar toda a altura do botão */
