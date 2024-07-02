@@ -4,6 +4,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 80vh;
 
     .about_text_title{
         transform: translate(-70%, -520%);

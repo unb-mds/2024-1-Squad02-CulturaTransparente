@@ -5,12 +5,15 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    margin-top: 10%;
-    margin-bottom: 16.5%;
-    width: 40vw; 
-    height: 80vh;
-    padding-bottom: 10%;
+    margin: 0 0 0 0;
+    
+    
+    
+
+    .imagem{
+        width: auto; 
+        height: 130vh;
+    }
     
     .titulo{
         font-weight: 700;

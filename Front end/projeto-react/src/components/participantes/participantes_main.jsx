@@ -9,7 +9,7 @@ const Participantes = () => {
                     <h2 className="titulo__texto">Nossa Equipe</h2>
                 </div>
                 <div>
-                    <img src={participantes} alt="logo" />
+                    <img src={participantes} alt="logo" className="imagem"/>
                 </div>
             </Container>
         </div>
