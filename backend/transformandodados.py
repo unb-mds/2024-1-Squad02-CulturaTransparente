@@ -25,7 +25,9 @@ def extrair_mes(arquivo):
     
     if len(partes_nome) > 1:
         parte_data = partes_nome[-1]
+        
         data = parte_data.split('-')
+        
         if len(data) > 1:
             ano = data[0]
             mes = data[1]
@@ -43,6 +45,7 @@ def regex_por_municipio(municipio):
         'são josé de mereti': r'Secretaria municipal de educação, cultura e turismo.*R\$\s*((?:\d+\.\d+|\d+\.\d*|\.\d+|\d+,\d+))\b',
     }
     regex_padrao = r'Secretaria municipal.*?Cultura.*R\$\s*((?:\d+\.\d+|\d+\.\d*|\.\d+|\d+,\d+))\b'
+
     return regex_dict.get(municipio, regex_padrao)
 
 def formatar_valor(valor):
@@ -72,24 +75,22 @@ def agrupar_valores_por_municipio_e_mes(pasta):
     return somas_por_municipio_ano_mes
 
 def salvar_somas_por_municipio_e_mes(pasta, somas_por_municipio_ano_mes):
-    pasta_valores_agrupados = os.path.join(pasta, 'valores_agrupados_por_mes')
+    pasta_valores_agrupados = os.path.join(pasta, 'valores_agrupados_por_ano')
     if not os.path.exists(pasta_valores_agrupados):
         os.makedirs(pasta_valores_agrupados)
 
-    for municipio, anos_meses_somas in somas_por_municipio_ano_mes.items():
-        pasta_municipio = os.path.join(pasta_valores_agrupados, municipio)
-        if not os.path.exists(pasta_municipio):
-            os.makedirs(pasta_municipio)
-
+    for municipio, anos_meses_somas in somas_por_municipio_e_mes.items():
         for ano, meses_somas in anos_meses_somas.items():
-            for mes, soma in meses_somas.items():
-                soma_formatada = formatar_valor(soma)
-                caminho_arquivo_json = os.path.join(pasta_municipio, f'{municipio}_{ano}_{mes}_soma.json')
-                dados_json = {'soma_formatada': soma_formatada}
-                with open(caminho_arquivo_json, 'w', encoding='utf-8') as f:
-                    json.dump(dados_json, f, ensure_ascii=False, indent=4)
+            pasta_ano = os.path.join(pasta_valores_agrupados, ano)
+            if not os.path.exists(pasta_ano):
+                os.makedirs(pasta_ano)
 
-# Substitua pelo caminho da sua pasta de arquivos
+            caminho_arquivo_json = os.path.join(pasta_ano, f'{municipio}_{ano}_somas.json')
+            dados_json = {mes: formatar_valor(soma) for mes, soma in meses_somas.items()}
+            
+            with open(caminho_arquivo_json, 'w', encoding='utf-8') as f:
+                json.dump(dados_json, f, ensure_ascii=False, indent=4)
+
 pasta = "./2024-1-Squad02-CulturaTransparente/backend/arquivos_nomeados"
 
 somas_por_municipio_e_mes = agrupar_valores_por_municipio_e_mes(pasta)
