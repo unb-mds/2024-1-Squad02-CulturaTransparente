@@ -1,5 +1,6 @@
 import imagem from '../../../assets/images/Group 10.png';
 import { Container } from './inicial';
+import { StyledLink } from "../navbar/navbar";
 
 const Inicial = () => {
     return(
@@ -7,7 +8,8 @@ const Inicial = () => {
         <Container>
         <img src={imagem} alt="initial_banner" classname="image"/>
         <a className='principal_text'>Transparência cultural ao <br/>alcance de um clique.</a>
-        <button to="/grafico" className='button'>clique aqui</button>
+        
+        <StyledLink to="/grafico" className='button'>clique aqui</StyledLink>
         </Container>
     </div>       
     )
