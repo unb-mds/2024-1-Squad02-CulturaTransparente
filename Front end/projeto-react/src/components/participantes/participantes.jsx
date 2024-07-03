@@ -5,12 +5,6 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-
-    .imagem{
-        width: auto;
-        height: 130vh;
-    }
 
     .titulo{
         font-weight: 700;
@@ -20,7 +14,7 @@ export const Container = styled.div`
         padding-bottom: 5%;
     }
 
-    .equipe {
+    .equipe1 {
         display: grid;
         grid-template-columns: 300px 300px 300px;
         gap: 20px;
@@ -165,6 +159,13 @@ export const Container = styled.div`
             transform: translate(35%, -100%);
         }
 
+    }
+    
+    .equipe2{
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        gap: 20px;
+    }
         .quadrado4{
             background-color: #FFE1B3;
             width: 281px;
@@ -189,10 +190,10 @@ export const Container = styled.div`
             margin-top: 20px;
         }
 
-        .github_png {
+        .github_png2 {
             width: 23px;
             height: 23px;
-            margin-left: 70px;
+            margin-left: 50px;
             margin-top: 20px;
         }
 
@@ -210,6 +211,111 @@ export const Container = styled.div`
             font-size: 18px;
             transform: translate(30%, -100%);
         }
+
+        .quadrado5{
+            background-color: #93CDAD;
+            width: 281px;
+            height: 387px;
+            border-radius: 10%;
+        }
+        .nome5{
+            font-family: Poppins;
+            text-align: center;
+            margin-top: 30px;
+            font-weight: 700;
+            font-size: 26px;
+        }
+
+        .imagem5{
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            align-items: center;
+            margin: auto;
+            margin-left: 70px;
+            margin-top: 20px;
+        }
+
+        .github_png {
+            width: 23px;
+            height: 23px;
+            margin-left: 70px;
+            margin-top: 20px;
+        }
+
+        .githubname5{
+            font-family: Poppins;
+            font-weight: 600;
+            height: 25px;
+            transform: translate(27%, -105%);
+        }
+
+        .function5{
+            font-family: Poppins;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 18px;
+            transform: translate(30%, -100%);
+        }
+
+    .function3_1{
+        font-family: Poppins;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 18px;
+        transform: translate(35%, -100%);
+    }
+    .quadrado6{
+        background-color: yellow;
+        width: 281px;
+        height: 387px;
+        border-radius: 10%;
+    }
+    .nome6{
+        font-family: Poppins;
+        text-align: center;
+        margin-top: 30px;
+        font-weight: 700;
+        font-size: 26px;
+    }
+
+    .imagem6{
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        align-items: center;
+        margin: auto;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+
+    .github_png3 {
+        width: 23px;
+        height: 23px;
+        margin-left: 83px;
+        margin-top: 20px;
+    }
+
+    .githubname6{
+        font-family: Poppins;
+        font-weight: 600;
+        height: 25px;
+        transform: translate(40%, -105%);
+    }
+
+    .function6{
+        font-family: Poppins;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 18px;
+        transform: translate(35%, -100%);
+    }
+    .function3_12{
+        font-family: Poppins;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 18px;
+        transform: translate(38%, -100%);
     }
 `
 

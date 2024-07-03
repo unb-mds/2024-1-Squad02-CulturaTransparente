@@ -11,7 +11,7 @@ const Participantes = () => {
                 </div>
                 <div>
                     <img src={participantes}/>
-                    <div className="equipe">
+                    <div className="equipe1">
                         <div className='quadrado1'>
                             <p className="nome1">André <br/>Maia</p>
                             <a href="//github.com/andre-maia51" target="_blank">
@@ -48,6 +48,10 @@ const Participantes = () => {
 
                         <br/>
 
+                    </div>
+
+
+                    <div className="equipe2">
                         <div className="quadrado4">
                             <p className="nome4">Isabelle<br/>Costa</p>
                             <a href="//github.com/isacostaf" target="_blank">
@@ -60,8 +64,32 @@ const Participantes = () => {
                             <p className='function3_1'>Front-end</p>
                         </div>
 
+                        <div className="quadrado5">
+                            <p className="nome5">José<br/>Vinicius</p>
+                            <a href="//github.com/JoseViniciusQueiroz" target="_blank">
+                                <img className="imagem5" src="https://avatars.githubusercontent.com/u/125223478?v=4"/>
+                            </a>
+                            <br/>
+                            <img className="github_png2" src={png_github}/>
+                            <p className='githubname5'>JoseViniciusQueiroz</p>
+                            <p className='function5'>Desenvolvedor</p>
+                            <p className='function3_1'>Back-End</p>
+                        </div>
 
+                        <div className="quadrado6">
+                            <p className="nome6">Pedro<br/>Faria</p>
+                            <a href="//github.com/PhFariaa" target="_blank">
+                                <img className="imagem6" src="https://avatars.githubusercontent.com/u/126727677?v=4"/>
+                            </a>
+                            <br/>
+                            <img className="github_png3" src={png_github}/>
+                            <p className='githubname6'>PhFariaa</p>
+                            <p className='function6'>Front-End</p>
+                            <p className='function3_12'>DevOps</p>
+                        </div>
                     </div>
+
+                    <div className="equipe3"></div>
 
                 </div>
             </Container>
