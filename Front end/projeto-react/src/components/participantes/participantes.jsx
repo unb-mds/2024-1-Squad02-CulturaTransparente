@@ -20,19 +20,19 @@ export const Container = styled.div`
         padding-bottom: 5%;
     }
 
-    .equipe{
+    .equipe {
         display: grid;
         grid-template-columns: 300px 300px 300px;
         gap: 20px;
 
-        .quadrado1{
+        .quadrado1 {
             background-color: purple;
             width: 281px;
             height: 387px;
             border-radius: 10%;
         }
 
-        .nome1{
+        .nome1 {
             font-family: Poppins;
             text-align: center;
             margin-top: 30px;
@@ -40,7 +40,7 @@ export const Container = styled.div`
             font-size: 26px;
         }
 
-        .imagem1{
+        .imagem1 {
             border-radius: 50%;
             width: 150px;
             height: 150px;
@@ -50,21 +50,21 @@ export const Container = styled.div`
             margin-top: 20px;
         }
 
-        .github_png{
+        .github_png {
             width: 23px;
             height: 23px;
             margin-left: 70px;
             margin-top: 20px;
         }
 
-        .githubname1{
+        .githubname1 {
             font-family: Poppins;
             font-weight: 600;
             height: 25px;
             transform: translate(35%, -105%);
         }
-        
-        .function1{
+
+        .function1 {
             font-family: Poppins;
             font-weight: 400;
             font-style: italic;
@@ -72,11 +72,12 @@ export const Container = styled.div`
             transform: translate(30%, -105%);
         }
 
-        .quadrado2{
+        .quadrado2 {
             background-color: yellow;
             width: 281px;
             height: 387px;
             border-radius: 10%;
+
         }
         .nome2{
             font-family: Poppins;
@@ -117,54 +118,7 @@ export const Container = styled.div`
             font-size: 18px;
             transform: translate(30%, -105%);
         }
-        
-    .quadrado3{
-        background-color: #FFE1B3;
-        width: 281px;
-        height: 387px;
-        border-radius: 10%;
     }
-        .nome3{
-            font-family: Poppins;
-            text-align: center;
-            margin-top: 30px;
-            font-weight: 700;
-            font-size: 26px;
-        }
-
-        .imagem3{
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-            align-items: center;
-            margin: auto;
-            margin-left: 70px;
-            margin-top: 20px;
-        }
-
-        .github_png{
-            width: 23px;
-            height: 23px;
-            margin-left: 70px;
-            margin-top: 20px;
-        }
-
-        .githubname3{
-            font-family: Poppins;
-            font-weight: 600;
-            height: 25px;
-            transform: translate(35%, -105%);
-        }
-
-        .function3{
-            font-family: Poppins;
-            font-weight: 400;
-            font-style: italic;
-            font-size: 18px;
-            transform: translate(30%, -105%);
-        }
-    }
-
 `
 
 
