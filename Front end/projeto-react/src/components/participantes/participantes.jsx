@@ -164,6 +164,52 @@ export const Container = styled.div`
             font-size: 18px;
             transform: translate(35%, -100%);
         }
+
+        .quadrado4{
+            background-color: #FFE1B3;
+            width: 281px;
+            height: 387px;
+            border-radius: 10%;
+        }
+        .nome4{
+            font-family: Poppins;
+            text-align: center;
+            margin-top: 30px;
+            font-weight: 700;
+            font-size: 26px;
+        }
+
+        .imagem4{
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            align-items: center;
+            margin: auto;
+            margin-left: 70px;
+            margin-top: 20px;
+        }
+
+        .github_png {
+            width: 23px;
+            height: 23px;
+            margin-left: 70px;
+            margin-top: 20px;
+        }
+
+        .githubname4{
+            font-family: Poppins;
+            font-weight: 600;
+            height: 25px;
+            transform: translate(35%, -105%);
+        }
+
+        .function4{
+            font-family: Poppins;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 18px;
+            transform: translate(30%, -100%);
+        }
     }
 `
 
