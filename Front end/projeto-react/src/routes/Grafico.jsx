@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Button_search from '../components/main_button/button_main';
 import Chart from '../components/apexchart/chart_main';
-import imagem from "../../assets/images/unb_image.png"; // Importe sua imagem aqui
+import imagem from "../../assets/images/unb_image.png";
 
 const Grafico = () => {
     return (

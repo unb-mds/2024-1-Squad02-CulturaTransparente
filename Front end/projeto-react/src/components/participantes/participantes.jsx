@@ -16,7 +16,7 @@ export const Container = styled.div`
 
     .equipe1 {
         display: grid;
-        grid-template-columns: 300px 300px 300px;
+        grid-template-columns: 350px 350px 350px;
         gap: 20px;
 
         .quadrado1 {
@@ -163,7 +163,7 @@ export const Container = styled.div`
     
     .equipe2 {
         display: grid;
-        grid-template-columns: 300px 300px 300px;
+        grid-template-columns: 350px 350px 350px;
         gap: 20px;
 
         .quadrado4 {
@@ -325,7 +325,7 @@ export const Container = styled.div`
     }
     .equipe3{
         display: grid;
-        grid-template-columns: 300px 300px 20px;
+        grid-template-columns: 320px 320px 75px;
         gap: 0px;
         align-items: center;
         justify-content: right;
