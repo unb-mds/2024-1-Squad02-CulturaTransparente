@@ -34,7 +34,20 @@ const Participantes = () => {
                             <p className='function2'>Project Owner</p>
                         </div>
 
+                        <div className="quadrado3">
+                            <p className="nome3">Pedro<br/>Goiz</p>
+                            <a href="//github.com/Goizzz" target="_blank">
+                                <img className="imagem3" src="https://avatars.githubusercontent.com/u/111159833?v=4"/>
+                            </a>
+                            <br/>
+                            <img className="github_png1" src={png_github}/>
+                            <p className='githubname3'>Goizzz</p>
+                            <p className='function3'>Desenvolvedor</p>
+                            <p className='function3_1'>Front-end</p>
+                        </div>
+
                     </div>
+
                 </div>
             </Container>
         </div>

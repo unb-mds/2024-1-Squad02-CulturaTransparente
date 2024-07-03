@@ -97,13 +97,6 @@ export const Container = styled.div`
             margin-top: 20px;
         }
 
-        .github_png{
-            width: 23px;
-            height: 23px;
-            margin-left: 70px;
-            margin-top: 20px;
-        }
-
         .githubname2{
             font-family: Poppins;
             font-weight: 600;
@@ -117,6 +110,59 @@ export const Container = styled.div`
             font-style: italic;
             font-size: 18px;
             transform: translate(30%, -105%);
+        }
+
+        .quadrado3{
+            background-color: #FFE1B3;
+            width: 281px;
+            height: 387px;
+            border-radius: 10%;
+        }
+        .nome3{
+            font-family: Poppins;
+            text-align: center;
+            margin-top: 30px;
+            font-weight: 700;
+            font-size: 26px;
+        }
+
+        .imagem3{
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            align-items: center;
+            margin: auto;
+            margin-left: 70px;
+            margin-top: 20px;
+        }
+
+        .github_png1 {
+            width: 23px;
+            height: 23px;
+            margin-left: 90px;
+            margin-top: 20px;
+        }
+
+        .githubname3{
+            font-family: Poppins;
+            font-weight: 600;
+            height: 25px;
+            transform: translate(43%, -105%);
+        }
+
+        .function3{
+            font-family: Poppins;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 18px;
+            transform: translate(27%, -100%);
+        }
+        .function3_1{
+            font-family: Poppins;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 18px;
+            transform: translate(35%, -100%);
         }
     }
 `
