@@ -1,5 +1,4 @@
 import { Container } from "./participantes.jsx"
-import participantes from "../../../assets/images/Equipe.png"
 import png_github from "../../../assets/images/github.png"
 
 const Participantes = () => {
@@ -10,7 +9,6 @@ const Participantes = () => {
                     <h2 className="titulo__texto">Nossa Equipe</h2>
                 </div>
                 <div>
-                    <img src={participantes}/>
                     <div className="equipe1">
                         <div className='quadrado1'>
                             <p className="nome1">André <br/>Maia</p>
@@ -87,9 +85,23 @@ const Participantes = () => {
                             <p className='function6'>Front-End</p>
                             <p className='function3_12'>DevOps</p>
                         </div>
+                        <br/>
                     </div>
 
-                    <div className="equipe3"></div>
+                    <div className="equipe3">
+                        <div className="quadrado7">
+                            <p className="nome7">Enrico<br/>Zoratto</p>
+                            <a href="//github.com/sidts" target="_blank">
+                                <img className="imagem7" src="https://avatars.githubusercontent.com/u/122989369?v=4"/>
+                            </a>
+                            <br/>
+                            <img className="github_png" src={png_github}/>
+                            <p className='githubname7'>Sidts</p>
+                            <p className='function7'>Desenvolvedor</p>
+                            <p className='function3_1'>Back-End</p>
+                        </div>
+
+                    </div>
 
                 </div>
             </Container>
