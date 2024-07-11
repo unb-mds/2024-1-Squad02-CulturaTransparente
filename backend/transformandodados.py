@@ -91,7 +91,7 @@ def salvar_somas_por_municipio_e_mes(pasta, somas_por_municipio_ano_mes):
             with open(caminho_arquivo_json, 'w', encoding='utf-8') as f:
                 json.dump(dados_json, f, ensure_ascii=False, indent=4)
 
-pasta = "./2024-1-Squad02-CulturaTransparente/backend/arquivos_nomeados"
+pasta = "../.gitignore/arquivos_renomeados"
 
 somas_por_municipio_e_mes = agrupar_valores_por_municipio_e_mes(pasta)
 
