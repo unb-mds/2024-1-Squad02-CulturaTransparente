@@ -11,7 +11,7 @@ class Main():
     # Método que executa todos os spiders disponíveis
     def run_spiders_all(self):
         # Criando uma variável com o caminho dos spiders
-        path = "data_collection/gazzete/spiders/rj"
+        path = "data_collection/gazette/spiders/rj"
 
         # Executando todos os spiders
         subprocess.run(["scrapy", "runspider", "rj_arraial_do_cabo.py"], cwd=path)
@@ -33,6 +33,6 @@ class Main():
 
 # Executando todos os métodos para realizar toda a operação do Backend
 main = Main()
-main.start_spiders_all()
+main.run_spiders_all()
 main.start_sh()
 main.start_data_transform()
