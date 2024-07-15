@@ -52,7 +52,7 @@ def formatar_valor(valor):
     partes = f"{valor:,.2f}".split(".")
     parte_inteira = partes[0].replace(",", ".")
     parte_decimal = partes[1]
-    return f"{parte_inteira},{parte_decimal}"
+    return f"{parte_inteira}.{parte_decimal}"
 
 def agrupar_valores_por_municipio_e_mes(pasta):
     if not os.path.isdir(pasta):
@@ -74,22 +74,20 @@ def agrupar_valores_por_municipio_e_mes(pasta):
 
     return somas_por_municipio_ano_mes
 
-def salvar_somas_por_municipio_e_mes(pasta, somas_por_municipio_ano_mes):
-    pasta_valores_agrupados = os.path.join(pasta, 'valores_agrupados_por_ano')
-    if not os.path.exists(pasta_valores_agrupados):
-        os.makedirs(pasta_valores_agrupados)
+def salvar_somas_por_municipio_e_mes(pasta, somas_por_municipio_e_mes):
+    dados_agrupados_por_ano = defaultdict(lambda: defaultdict(lambda: defaultdict(float)))
 
     for municipio, anos_meses_somas in somas_por_municipio_e_mes.items():
         for ano, meses_somas in anos_meses_somas.items():
-            pasta_ano = os.path.join(pasta_valores_agrupados, ano)
-            if not os.path.exists(pasta_ano):
-                os.makedirs(pasta_ano)
+            for mes, soma in meses_somas.items():
+                dados_agrupados_por_ano[ano][municipio][mes] += soma
 
-            caminho_arquivo_json = os.path.join(pasta_ano, f'{municipio}_{ano}_somas.json')
-            dados_json = {mes: formatar_valor(soma) for mes, soma in meses_somas.items()}
-            
-            with open(caminho_arquivo_json, 'w', encoding='utf-8') as f:
-                json.dump(dados_json, f, ensure_ascii=False, indent=4)
+    for ano, municipios_meses_somas in dados_agrupados_por_ano.items():
+        caminho_arquivo_json = os.path.join(pasta, f'{ano}_somas.json')
+        dados_json = {municipio: {mes: formatar_valor(soma) for mes, soma in meses_somas.items()} for municipio, meses_somas in municipios_meses_somas.items()}
+        
+        with open(caminho_arquivo_json, 'w', encoding='utf-8') as f:
+            json.dump(dados_json, f, ensure_ascii=False, indent=4)
 
 pasta = "./2024-1-Squad02-CulturaTransparente/backend/arquivos_nomeados"
 
