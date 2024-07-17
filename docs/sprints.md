@@ -402,7 +402,43 @@
              </li>
              <li>Conclusão
                 <ul>
-                  <li>Sprint ainda não finalizada.</li>
+                  <li>A equipe conseguiu fazer a entrega da R1 e discutiu todo o Feedback dado pela professora.</li>
+                </ul>
+             </li>
+        </ul>
+  </ul>
+  
+</details>
+
+<details style="background-color: #f0f0f0; padding: 30px;" open> 
+  <summary style="font-weigth: bold;">SPRINT 11</summary>
+  <ul>
+      <p>Período: 08/07 a 17/07</p>
+      <li>Objetivos
+        <ul>
+            <li>Automatizar o funcionamento do Backend;</li>
+            <li>Realizar melhorias no código de Regex;</li>
+            <li>Corrigir documentações;</li>
+            <li>Trabalhar em melhorias no Frontend.</li>
+        </ul>
+      </li>
+      <li>Reuniões 
+        <ul>
+             <li>Dia 08/07
+                  <ul>
+                      <li>Nesta reunião o grupo discutiu quais tópicos de melhorias sugeridos pela professora devemos priorizar, a maior prioridade foi automatizar e facilitar o funcionamento do Backend. Ficou sob a responsabilidade do André Maia e Pedro Henrique, criarem um script capaz de rodar todo o Backend, sendo assim, o desenvolvedor só precisará rodar um arquivo para ver toda a captura e conversão de dados acontecendo;</li>
+                      <li>Também definimos as alterações nas documentações que devem ser feitas para melhor entedimento de todo o funcionamento do projeto, além de algumas melhorias no Frontend que, por sugestão do restante do grupo, fará uma página dedicada aos integrantes do grupo para deixar o site melhor organizado;</li>
+                      <li>Sobre o Regex dos dados, o foco do integrante Enrico será tirar todos os pontos que deixam o código Hard Coded, mas ficou definido, para essa sprint, que o arquivo JSON gerado pelo código não está do jeito ideal que a equipe gostaria que estivesse.</li>
+                  </ul>
+             </li>
+             <li>Dia 12/07
+                 <ul>
+                     <li>Até o acontecimento da reunião, a automação do projeto foi totalmente realizada com êxito.</li>
+                 </ul>
+             </li>
+             <li>Conclusão
+                <ul>
+                  <li>A automação foi totalmente realizada, as melhorias no arquivo de Regex também foram feitas com êxito. Os outros objetivos definidos para a sprint não foram entregues.</li>
                 </ul>
              </li>
         </ul>
