@@ -8,7 +8,7 @@ nav:
       - Roadmap: roadmap.md
       - Protótipo: prototipo.md 
   - Como Executar?: comoexecutar.md
-  - Como contribuir?: contribuir.md 
+  - Como Contribuir?: contribuir.md 
 
 theme: material 
 
