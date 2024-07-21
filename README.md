@@ -30,6 +30,30 @@ Você pode clonar o repositorio usando o seguinte comando:
 ```bash
 git clone https://github.com/unb-mds/2024-1-Squad02-CulturaTransparente.git
 ```
+### Pré-requisitos
+Para rodar o projeto é importante que você tenha as seguintes tecnologias:
+- Python3
+- NodeJS
+- Docker
+
+### Para rodar o Back-end
+#### 1. Instale as bibliotecas necessárias
+Execute o seguinte comando para instalar todas as bibliotecas necessárias para o funcionamento do Back-end:
+```bash
+pip install -r requirements.txt
+```
+#### 2. Execute o Back-end
+Para executar o nosso Back-end, basta executar o comando a seguir:
+```bash
+python3 run_back.py
+```
+
+### Para rodar o Front-end
+Você pode executar o Front-end do projeto com o seguinte comando:
+```bash
+docker compose up
+```
+
 
 <hr/>
 
