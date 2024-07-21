@@ -1,7 +1,7 @@
 #Sprints 
 
 
-<details style="background-color: #f0f0f0; padding: 30px;" open> 
+<details style="background-color: #f0f0f0; padding: 30px;" close> 
   <summary style="font-weigth: bold;">SPRINT 0</summary>
   <ul>
       <p>Período: 18/03 a 25/03</p>
@@ -40,7 +40,7 @@
   
 </details>
 
-<details style="background-color: #f0f0f0; padding: 30px;" open> 
+<details style="background-color: #f0f0f0; padding: 30px;" close> 
   <summary style="font-weigth: bold;">SPRINT 1</summary>
   <ul>
       <p>Período: 25/03 a 01/04</p>
@@ -80,7 +80,7 @@
   
 </details>
 
-<details style="background-color: #f0f0f0; padding: 30px;" open> 
+<details style="background-color: #f0f0f0; padding: 30px;" close> 
   <summary style="font-weigth: bold;">SPRINT 2</summary>
   <ul>
       <p>Período: 01/04 a 08/04</p>
@@ -119,7 +119,7 @@
   
 </details>
 
-<details style="background-color: #f0f0f0; padding: 30px;" open> 
+<details style="background-color: #f0f0f0; padding: 30px;" close> 
   <summary style="font-weigth: bold;">SPRINT 3</summary>
   <ul>
       <p>Período: 08/04 a 15/04</p>
@@ -157,7 +157,7 @@
   
 </details>
 
-<details style="background-color: #f0f0f0; padding: 30px;" open> 
+<details style="background-color: #f0f0f0; padding: 30px;" close> 
   <summary style="font-weigth: bold;">SPRINT 4</summary>
   <ul>
       <p>Período: 15/04 a 22/04</p>
@@ -191,7 +191,7 @@
   
 </details>
 
-<details style="background-color: #f0f0f0; padding: 30px;" open> 
+<details style="background-color: #f0f0f0; padding: 30px;" close> 
   <summary style="font-weigth: bold;">SPRINT 5</summary>
   <ul>
       <p>Período: 22/04 a 29/04</p>
@@ -228,7 +228,7 @@
   
 </details>
 
-<details style="background-color: #f0f0f0; padding: 30px;" open> 
+<details style="background-color: #f0f0f0; padding: 30px;" close> 
   <summary style="font-weigth: bold;">SPRINT 6</summary>
   <ul>
       <p>Período: 29/04 a 06/05</p>
@@ -267,7 +267,7 @@
   
 </details>
 
-<details style="background-color: #f0f0f0; padding: 30px;" open> 
+<details style="background-color: #f0f0f0; padding: 30px;" close> 
   <summary style="font-weigth: bold;">SPRINT 7</summary>
   <ul>
       <p>Período: 06/05 a 13/05</p>
@@ -306,7 +306,7 @@
   
 </details>
 
-<details style="background-color: #f0f0f0; padding: 30px;" open> 
+<details style="background-color: #f0f0f0; padding: 30px;" close> 
   <summary style="font-weigth: bold;">SPRINT 8</summary>
   <ul>
       <p>Período: 13/05 a 27/05</p>
@@ -341,7 +341,7 @@
   
 </details>
 
-<details style="background-color: #f0f0f0; padding: 30px;" open> 
+<details style="background-color: #f0f0f0; padding: 30px;" close> 
   <summary style="font-weigth: bold;">SPRINT 9</summary>
   <ul>
       <p>Período: 27/05 a 24/06</p>
@@ -374,7 +374,7 @@
   
 </details>
 
-<details style="background-color: #f0f0f0; padding: 30px;" open> 
+<details style="background-color: #f0f0f0; padding: 30px;" close> 
   <summary style="font-weigth: bold;">SPRINT 10</summary>
   <ul>
       <p>Período: 24/06 a 01/07</p>
@@ -410,7 +410,7 @@
   
 </details>
 
-<details style="background-color: #f0f0f0; padding: 30px;" open> 
+<details style="background-color: #f0f0f0; padding: 30px;" close> 
   <summary style="font-weigth: bold;">SPRINT 11</summary>
   <ul>
       <p>Período: 08/07 a 17/07</p>
