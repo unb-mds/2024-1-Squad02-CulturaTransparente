@@ -6,12 +6,12 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-top: 10%;
-    margin-bottom: 16.5%;
-    width: 40vw; 
-    height: 80vh;
+    margin-top: 1%;
+    margin-bottom: 5vh;
+    width: 60vw; 
+    height: auto;
     padding-bottom: 10%;
-    
+
     .titulo{
         font-weight: 700;
         font-size: 4rem;
@@ -20,4 +20,9 @@ export const Container = styled.div`
         padding-bottom: 5%;
     }
 
-    `
+    .integrante-img {
+        width: 300px;
+        height: 400px;
+        display: block;
+    }
+`
