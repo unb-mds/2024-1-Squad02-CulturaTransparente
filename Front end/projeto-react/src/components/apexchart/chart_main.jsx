@@ -1,21 +1,37 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import ApexCharts from 'react-apexcharts';
+import jsonData from '../public/Nova Iguacu_2023_somas.json'; // Lembrar de mudar o path depois para a pasta do back-end (se tiver uma )
 
 export default function Chart() {
+    const [series, setSeries] = useState([]);
+    const [loading, setLoading] = useState(true); // Adicionando um estado de carregamento
+
+    useEffect(() => {
+        // Simulando o fetch de dados do JSON importado
+        console.log('Dados carregados do JSON:', jsonData);
+        const transformedData = Object.values(jsonData).map(value => {
+            const floatValue = parseFloat(value.replace(',', '.'));
+            return isNaN(floatValue) ? 0 : floatValue; // Verifica se o valor é um número válido
+        });
+        console.log('Dados transformados:', transformedData);
+        setSeries([{ name: 'Gastos', data: transformedData }]);
+        setLoading(false); // Dados carregados, desativa o carregamento
+    }, []);
+
     const options = {
         chart: {
             type: 'bar',
-            height: 500, // Reduzindo um pouco a altura do gráfico
-            width: '95%', // Utilizando 95% da largura disponível
+            height: 500,
+            width: '95%',
             toolbar: {
-                show: false // Oculta a barra de ferramentas do gráfico
+                show: false
             }
         },
         plotOptions: {
             bar: {
                 horizontal: false,
-                distributed: true, // Distribui as barras uniformemente
-                barHeight: '80%', // Diminui o tamanho das barras
+                distributed: true,
+                barHeight: '80%',
             }
         },
         xaxis: {
@@ -23,7 +39,7 @@ export default function Chart() {
             type: 'category',
             labels: {
                 style: {
-                    fontSize: '14px' // Define o tamanho da fonte dos rótulos X
+                    fontSize: '14px'
                 }
             }
         },
@@ -31,7 +47,7 @@ export default function Chart() {
             title: {
                 text: 'Gastos (M de reais)',
                 style: {
-                    fontSize: '16px' // Define o tamanho da fonte do título Y
+                    fontSize: '16px'
                 }
             }
         },
@@ -49,8 +65,8 @@ export default function Chart() {
         colors: ['#FFCA00', '#874FD4', '#64BA8B', '#FFCA00', '#874FD4', '#64BA8B', '#FFCA00', '#874FD4', '#64BA8B', '#FFCA00', '#874FD4', '#64BA8B'],
         grid: {
             padding: {
-                left: 20, // Adiciona margem à esquerda do gráfico
-                right: 20 // Adiciona margem à direita do gráfico
+                left: 20,
+                right: 20
             }
         },
         title: {
@@ -58,26 +74,25 @@ export default function Chart() {
             align: 'center',
             margin: 10,
             style: {
-                fontSize: '24px', // Aumenta o tamanho da fonte do título
-                fontWeight: 'bold', // Define o peso da fonte do título
-                fontFamily: 'Poppins', // Define a fonte do título
-                color: '#fff' // Define a cor do título (branco)
+                fontSize: '24px',
+                fontWeight: 'bold',
+                fontFamily: 'Poppins',
+                color: '#fff'
             },
         },
     };
 
-    const series = [{
-        name: 'Gastos',
-        data: [2.3, 3.1, 4.0, 10.1, 4.0, 3.6, 3.2, 2.3, 1.4, 0.8, 0.5, 0.2]
-    }];
+    if (loading) {
+        return <div>Carregando...</div>; // Exibe uma mensagem de carregamento enquanto os dados estão sendo carregados
+    }
 
     return (
         <ApexCharts
             options={options}
             series={series}
             type='bar'
-            width='100%' // Utilizando toda a largura disponível
-            height={500} // Reduzindo um pouco a altura do gráfico
+            width='100%'
+            height={500}
         />
     );
 }
