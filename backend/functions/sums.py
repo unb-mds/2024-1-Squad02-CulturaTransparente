@@ -1,7 +1,7 @@
 import os
 import json
 from collections import defaultdict
-from format import formatar
+from .format import formatar
 
 def salvarSomas(pasta, somasTotais):
     dados = defaultdict(lambda: defaultdict(lambda: defaultdict(float)))
