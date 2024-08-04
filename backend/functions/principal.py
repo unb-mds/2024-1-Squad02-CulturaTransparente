@@ -1,5 +1,5 @@
-from group import agrupar
-from sums import salvarSomas
+from .group import agrupar
+from .sums import salvarSomas
 
 def principal():
     pasta = "../.gitignore/arquivos_renomeados"
