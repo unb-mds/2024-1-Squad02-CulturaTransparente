@@ -445,3 +445,74 @@
   </ul>
   
 </details>
+
+<details style="background-color: #f0f0f0; padding: 30px;" close> 
+  <summary style="font-weigth: bold;">SPRINT 12</summary>
+  <ul>
+      <p>Período: 17/07 a 22/07</p>
+      <li>Objetivos
+        <ul>
+            <li>Melhorar o arquivo JSON para facilitar a leitura pela equipe do Frontend;</li>
+            <li>Consertar o que falta nas documentações;</li>
+            <li>Criar o passo a passo de como executar o projeto;</li>
+            <li>Deixar o Frontend funcional, ou seja, já capaz de ler os dados fornecidos pelo Back.</li>
+        </ul>
+      </li>
+      <li>Reuniões 
+        <ul>
+             <li>Dia 17/07
+                  <ul>
+                      <li>Nesta reunião, o grupo definiu que a atual prioridade é deixar o projeto totalmente funcional e, para isto, o arquivo JSON precisa ser melhorado na sua formatação e o Frontend deve deixar de ser mockado. Portanto, as duas maiores prioridades da sprint serão esses dois pontos;</li>
+                      <li>Por fim, a professora recomendou algumas melhorias na documentação e elas devem ser implementadas na sprint atual também, juntamente com o “tutorial” de como executar o projeto, visto que ainda não temos isso em nenhum local.</li>
+                  </ul>
+             </li>
+             <li>Dia 19/07
+                 <ul>
+                     <li>O arquivo JSON gerado pelo Backend já sofreu as alterações necessárias para facilitar o lado do Front. Na parte do Frontend, a equipe segue estudando a como realizar a leitura do JSON.</li>
+                 </ul>
+             </li>
+             <li>Conclusão
+                <ul>
+                  <li>O passo a passo da execução do projeto assim como a melhora no JSON e mudanças na disposição dos códigos do Back, visando melhor entendimento, foram realizadas durante a Sprint. No Frontend, a equipe não entregou o mesmo funcional, pois focaram em estudar para realizarem de maneira eficiente.</li>
+                </ul>
+             </li>
+        </ul>
+  </ul>
+  
+</details>
+
+<details style="background-color: #f0f0f0; padding: 30px;" close> 
+  <summary style="font-weigth: bold;">SPRINT 13</summary>
+  <ul>
+      <p>Período: 22/07 a 29/07</p>
+      <li>Objetivos
+        <ul>
+            <li>Deixar o Frontend funcional, ou seja, já capaz de ler os dados fornecidos pelo Back;</li>
+            <li>Realizar o protótipo do Figma com a tela dedicada para os participantes do grupo;</li>
+            <li>Fazer a alteração de datas na parte de automação do Backend;</li>
+            <li>Organizar os arquivos do Backend, mantendo mais organizado;</li>
+            <li>Iniciar os estudos de testes para implementarmos no nosso projeto.</li>
+        </ul>
+      </li>
+      <li>Reuniões 
+        <ul>
+             <li>Dia 22/07
+                  <ul>
+                      <li>Nesta reunião ficou acordado da equipe do Frontend continuarem o trabalho de deixar o Frontend funcionando. Para o Backend, começaram os estudos de testes para implementarmos no projeto, assim como, foi recomendado uma mudança na organização dos arquivos do Back, pois estavam muito desorganizados;</li>
+                      <li>Sobre o site, a equipe concordou em realizar uma página dedicada aos integrantes do grupo, deixando mais modularizado a navegação no mesmo.</li>
+                  </ul>
+             </li>
+             <li>Dia 26/07
+                 <ul>
+                     <li>Reunião não realizada.</li>
+                 </ul>
+             </li>
+             <li>Conclusão
+                <ul>
+                  <li>Os testes foram iniciados, porém não finalizados, portanto a entrega ficou para a próxima Sprint. A organização dos arquivos, assim como a alteração nas datas na parte de automação e o design no Figma com a nova tela dos integrantes foram entregues. O Frontend, infelizmente, não foi entregue, ficando para a próxima Sprint.</li>
+                </ul>
+             </li>
+        </ul>
+  </ul>
+  
+</details>
