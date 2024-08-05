@@ -28,7 +28,8 @@ class Main():
 
     # Método para executar o código de Regex que trata os dados dos TXTs
     def start_data_transform(self):
-        subprocess.run(["python3", "principal.py"], cwd=DIR_INICIAL)
+        path = "functions/"
+        subprocess.run(["python3", "principal.py"], cwd=path)
 
 
 # Executando todos os métodos para realizar toda a operação do Backend
