@@ -1,21 +1,54 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import ApexCharts from 'react-apexcharts';
+import jsonData from '../public/somasTotais.json';
 
 export default function Chart() {
+    const [series, setSeries] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [selectedYear, setSelectedYear] = useState('2024');
+    const [selectedMunicipality, setSelectedMunicipality] = useState('Rio De Janeiro');
+
+    const years = Object.keys(jsonData);
+    const municipalities = selectedYear ? Object.keys(jsonData[selectedYear] || {}) : [];
+
+    useEffect(() => {
+        if (selectedYear && selectedMunicipality) {
+            const municipalityData = jsonData[selectedYear]?.[selectedMunicipality];
+            if (municipalityData) {
+                const transformedData = [];
+                // Preenchendo dados no formato correto para os meses
+                for (let i = 1; i <= 12; i++) {
+                    const month = String(i).padStart(2, '0'); // Adiciona zero à esquerda se necessário
+                    let value = municipalityData[month] || "0,00"; // Valor padrão se o mês não estiver presente
+                    // Ajustando o formato dos valores para números flutuantes
+                    let formattedValue = value
+                        .replace(/\.(?=.*\.)/g, '') // Remove pontos se houver mais de um ponto
+                        .replace(',', '.'); // Substitui a vírgula por ponto decimal
+                    const floatValue = parseFloat(formattedValue);
+                    transformedData.push(isNaN(floatValue) ? 0 : floatValue);
+                }
+                setSeries([{ name: 'Gastos', data: transformedData }]);
+            } else {
+                setSeries([]); // Limpar série se não houver dados
+            }
+            setLoading(false);
+        }
+    }, [selectedYear, selectedMunicipality]);
+
     const options = {
         chart: {
             type: 'bar',
-            height: 500, // Reduzindo um pouco a altura do gráfico
-            width: '95%', // Utilizando 95% da largura disponível
+            height: 500,
+            width: '95%',
             toolbar: {
-                show: false // Oculta a barra de ferramentas do gráfico
+                show: false
             }
         },
         plotOptions: {
             bar: {
                 horizontal: false,
-                distributed: true, // Distribui as barras uniformemente
-                barHeight: '80%', // Diminui o tamanho das barras
+                distributed: true,
+                barHeight: '80%',
             }
         },
         xaxis: {
@@ -23,61 +56,111 @@ export default function Chart() {
             type: 'category',
             labels: {
                 style: {
-                    fontSize: '14px' // Define o tamanho da fonte dos rótulos X
+                    fontSize: '14px',
+
                 }
             }
         },
         yaxis: {
             title: {
-                text: 'Gastos (M de reais)',
+                text: 'Gastos',
                 style: {
-                    fontSize: '16px' // Define o tamanho da fonte do título Y
+                    fontSize: '16px'
                 }
             }
         },
         tooltip: {
             enabled: true,
             formatter: function (val) {
-                return val + ' M';
+                return val + ' R$';
             }
         },
         dataLabels: {
             formatter: function (val) {
-                return val.toFixed(2) + ' M';
+                return val.toFixed(2) + ' R$';
             }
         },
         colors: ['#FFCA00', '#874FD4', '#64BA8B', '#FFCA00', '#874FD4', '#64BA8B', '#FFCA00', '#874FD4', '#64BA8B', '#FFCA00', '#874FD4', '#64BA8B'],
         grid: {
             padding: {
-                left: 20, // Adiciona margem à esquerda do gráfico
-                right: 20 // Adiciona margem à direita do gráfico
+                left: 20,
+                right: 20
             }
-        },
-        title: {
-            text: 'Quantidade de investimento na área de cultura no município do Rio de Janeiro',
-            align: 'center',
-            margin: 10,
-            style: {
-                fontSize: '24px', // Aumenta o tamanho da fonte do título
-                fontWeight: 'bold', // Define o peso da fonte do título
-                fontFamily: 'Poppins', // Define a fonte do título
-                color: '#fff' // Define a cor do título (branco)
-            },
         },
     };
 
-    const series = [{
-        name: 'Gastos',
-        data: [2.3, 3.1, 4.0, 10.1, 4.0, 3.6, 3.2, 2.3, 1.4, 0.8, 0.5, 0.2]
-    }];
+    if (loading) {
+        return <div>Carregando...</div>;
+    }
 
     return (
-        <ApexCharts
-            options={options}
-            series={series}
-            type='bar'
-            width='100%' // Utilizando toda a largura disponível
-            height={500} // Reduzindo um pouco a altura do gráfico
-        />
+        <div style={styles.container}>
+            <h2 style={styles.title}>
+                Quantidade de investimento na área de cultura no estado do Rio de Janeiro
+            </h2>
+            <div style={styles.buttonContainer}>
+                <select
+                    style={styles.button}
+                    value={selectedYear}
+                    onChange={(e) => setSelectedYear(e.target.value)}
+                >
+                    {years.map(year => (
+                        <option key={year} value={year}>
+                            {year}
+                        </option>
+                    ))}
+                </select>
+                <select
+                    style={styles.button}
+                    value={selectedMunicipality}
+                    onChange={(e) => setSelectedMunicipality(e.target.value)}
+                >
+                    {municipalities.map(municipality => (
+                        <option key={municipality} value={municipality}>
+                            {municipality}
+                        </option>
+                    ))}
+                </select>
+            </div>
+            <ApexCharts
+                options={options}
+                series={series}
+                type='bar'
+                width='100%'
+                height={500}
+            />
+        </div>
     );
 }
+
+const styles = {
+    container: {
+        textAlign: 'center',
+    },
+    title: {
+        marginBottom: '20px',
+        fontSize: '24px',
+        fontWeight: 'bold',
+        fontFamily: 'Poppins',
+        color: '#fff'
+    },
+    buttonContainer: {
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginBottom: '20px',
+    },
+    button: {
+        margin: '0 10px',
+        padding: '12px 24px',
+        fontSize: '18px',
+        borderRadius: '25px',
+        border: 'none',
+        backgroundColor: '#FFCA00',
+        color: '#fff',
+        cursor: 'pointer',
+        fontWeight: 'bold',
+        fontFamily: 'Poppins',
+        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+    },
+};
