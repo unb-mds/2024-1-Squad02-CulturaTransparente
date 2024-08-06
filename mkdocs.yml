@@ -1,10 +1,14 @@
-site_name: My Docs
+site_name: Cultura Transparente 
 nav:
   - Home: index.md
   - Sprints: sprints.md
   - Organização do Projeto: 
       - Aquitetura: arquitetura.md
       - Storymap: storymap.md
+      - Roadmap: roadmap.md
+      - Protótipo: prototipo.md 
+  - Como Executar?: comoexecutar.md
+  - Como Contribuir?: contribuir.md 
 
 theme: material 
 
