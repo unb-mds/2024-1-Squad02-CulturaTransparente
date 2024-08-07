@@ -1,5 +1,6 @@
 import logo from "../../../assets/images/Logo-cabecalho.png";
 import { Container } from "../navbar/navbar";
+import Button_search from '../main_button/button_main';
 import { NavBar, StyledLink } from "../navbar/navbar";
 
 const Navbar = () => {
@@ -46,7 +47,7 @@ const Navbar = () => {
     return (
         <div>
             <Container className="inicio">
-                <button id="logo2" className="b" onClick={scrollToTop}> <img src={logo} alt="logo" className="logo" /> </button>
+                <Button_search />
                 <NavBar>
                     <button className="b1" onClick={scrollToSobre}>Sobre</button>
                     <button className="b2" onClick={scrollToLicitacoes}>Informações</button>
