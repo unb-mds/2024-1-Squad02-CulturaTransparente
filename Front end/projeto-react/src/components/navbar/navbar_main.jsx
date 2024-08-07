@@ -50,7 +50,7 @@ const Navbar = () => {
                 <NavBar>
                     <button className="b1" onClick={scrollToSobre}>Sobre</button>
                     <button className="b2" onClick={scrollToLicitacoes}>Informações</button>
-                    <button className="b3" onClick={scrollToFooter}>Equipe</button>
+                    <StyledLink to="/integrantes" className="b3">Equipe</StyledLink>
                     <StyledLink to="/grafico" className="b4">Licitações</StyledLink>
                 </NavBar>
             </Container>
