@@ -4,6 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import Home from './routes/Home.jsx'
 import Grafico from './routes/Grafico.jsx'
+import Integrantes from './routes/Integrantes.jsx'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
@@ -27,6 +28,11 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />
+      },
+
+      {
+        path: "integrantes",
+        element: <Integrantes />
       },
 
       {

@@ -7,18 +7,19 @@ import Footer from "../components/Footer/Footer_main"
 import Inicial from '../components/Inicial/inicial_main'
 
 
-const Home = () => {
+const Integrantes = () => {
     return (
         <div>
             <Navbar />
             <br/>
-            <Inicial/>
+            {/* <Inicial/>
             <Sobre />
-            <Licitacoes />
+            <Licitacoes /> */}
+            <Participantes />
             <Footer />
         </div>
     )
 
 };
 
-export default Home;
+export default Integrantes;

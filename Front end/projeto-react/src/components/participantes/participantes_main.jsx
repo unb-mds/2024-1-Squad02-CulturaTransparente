@@ -5,9 +5,6 @@ const Participantes = () => {
     return (
         <div id="Participantes">
             <Container className="inicio">
-                <div className="titulo">
-                    <h2 className="titulo__texto">Nossa Equipe</h2>
-                </div>
                 <div>
                     <div className="equipe1">
                         <div className='quadrado1'>
