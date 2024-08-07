@@ -1,24 +1,22 @@
 import React from 'react'
 import Navbar from "../components/navbar/navbar_main"
-import Sobre from "../components/sobre/sobre_main"
-import Licitacoes from "../components/licitacoes/licitacoes_main"
 import Participantes from "../components/participantes/participantes_main"
 import Footer from "../components/Footer/Footer_main"
-import Inicial from '../components/Inicial/inicial_main'
+import TIntegrantes from "../components/texto_integrantes/tintegrantes_main"
 
 
-const Home = () => {
+
+const Integrantes = () => {
     return (
         <div>
             <Navbar />
             <br/>
-            <Inicial/>
-            <Sobre />
-            <Licitacoes />
+            <TIntegrantes />
+            <Participantes />
             <Footer />
         </div>
     )
 
 };
 
-export default Home;
+export default Integrantes;
