@@ -41,12 +41,6 @@ const Participantes = () => {
                             <p className='function3_1'>Front-end</p>
                         </div>
 
-                        <br/>
-
-                    </div>
-
-
-                    <div className="equipe2">
                         <div className="quadrado4">
                             <p className="nome4">Isabelle<br/>Costa</p>
                             <a href="//github.com/isacostaf" target="_blank">
@@ -58,6 +52,13 @@ const Participantes = () => {
                             <p className='function4'>Desenvolvedor</p>
                             <p className='function3_1'>Front-end</p>
                         </div>
+
+                        <br/>
+
+                    </div>
+
+
+                    <div className="equipe2">
 
                         <div className="quadrado5">
                             <p className="nome5">José<br/>Vinicius</p>
@@ -82,10 +83,7 @@ const Participantes = () => {
                             <p className='function6'>Front-End</p>
                             <p className='function3_12'>DevOps</p>
                         </div>
-                        <br/>
-                    </div>
 
-                    <div className="equipe3">
                         <div className="quadrado7">
                             <p className="nome7">Enrico<br/>Zoratto</p>
                             <a href="//github.com/sidts" target="_blank">
@@ -97,6 +95,18 @@ const Participantes = () => {
                             <p className='function7'>Desenvolvedor</p>
                             <p className='function3_1'>Back-End</p>
                         </div>
+
+                        <div className="quadrado8">
+                            <p className="alunos">Alunos</p>
+                            <p className='faculdade'>UNB</p>
+                            <p className='function8'>Disciplina: Métodos de Desenvolvimento de Software</p>
+                        </div>
+
+                        <br/>
+                    </div>
+
+                    <div className="equipe3">
+                        
 
                     </div>
 

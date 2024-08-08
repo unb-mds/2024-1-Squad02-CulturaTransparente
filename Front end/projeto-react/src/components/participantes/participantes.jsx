@@ -16,11 +16,11 @@ export const Container = styled.div`
 
     .equipe1 {
         display: grid;
-        grid-template-columns: 350px 350px 350px;
+        grid-template-columns: 300px 300px 300px 300px;
         gap: 20px;
 
         .quadrado1 {
-            background-color: purple;
+            background-color: #93CDAD;
             width: 281px;
             height: 387px;
             border-radius: 10%;
@@ -67,7 +67,7 @@ export const Container = styled.div`
         }
 
         .quadrado2 {
-            background-color: yellow;
+            background-color: #874FD4;
             width: 281px;
             height: 387px;
             border-radius: 10%;
@@ -107,7 +107,7 @@ export const Container = styled.div`
         }
 
         .quadrado3{
-            background-color: #FFE1B3;
+            background-color: #FFCA00;
             width: 281px;
             height: 387px;
             border-radius: 10%;
@@ -159,15 +159,8 @@ export const Container = styled.div`
             transform: translate(35%, -100%);
         }
 
-    }
-    
-    .equipe2 {
-        display: grid;
-        grid-template-columns: 350px 350px 350px;
-        gap: 20px;
-
         .quadrado4 {
-            background-color: #FFE1B3;
+            background-color: #FFEFD6;
             width: 281px;
             height: 387px;
             border-radius: 10%;
@@ -213,8 +206,15 @@ export const Container = styled.div`
             transform: translate(30%, -100%);
         }
 
+    }
+    
+    .equipe2 {
+        display: grid;
+        grid-template-columns: 300px 300px 300px 300px;
+        gap: 20px;
+
         .quadrado5 {
-            background-color: #93CDAD;
+            background-color: #FFCA00;
             width: 281px;
             height: 387px;
             border-radius: 10%;
@@ -238,10 +238,10 @@ export const Container = styled.div`
             margin-top: 20px;
         }
 
-        .github_png {
+        .github_png2 {
             width: 23px;
             height: 23px;
-            margin-left: 70px;
+            margin-left: 48px;
             margin-top: 20px;
         }
 
@@ -269,7 +269,7 @@ export const Container = styled.div`
         }
 
         .quadrado6 {
-            background-color: yellow;
+            background-color: #FFEFD6;
             width: 281px;
             height: 387px;
             border-radius: 10%;
@@ -322,15 +322,9 @@ export const Container = styled.div`
             font-size: 18px;
             transform: translate(38%, -100%);
         }
-    }
-    .equipe3{
-        display: grid;
-        grid-template-columns: 320px 320px 75px;
-        gap: 0px;
-        align-items: center;
-        justify-content: right;
+
         .quadrado7 {
-            background-color: purple;
+            background-color: #874FD4;
             width: 281px;
             height: 387px;
             border-radius: 10%;
@@ -382,6 +376,47 @@ export const Container = styled.div`
             font-style: italic;
             font-size: 18px;
             transform: translate(35%, -80%);
+        }
+
+        .quadrado8 {
+            background-color: #874FD4;
+            width: 281px;
+            height: 387px;
+            border-radius: 10%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .alunos {
+            font-family: Poppins;
+            text-align: center;
+            margin-top: 90px;
+            font-weight: 00;
+            font-size: 15px;
+            display: flex;
+            transform: translate(40%, 135%);
+            font-style: italic;
+
+        }
+
+
+        .faculdade {
+            font-family: Poppins;
+            text-align: center;
+            font-weight: 600;
+            height: 50px;
+            font-size: 40px;
+            transform: translate(0%, 30%);
+        }
+
+        .function8 {
+            font-family: Poppins;
+            text-align: center;
+            font-weight: 400;
+            font-size: 18px;
+            width: 200px;
+            transform: translate(22%, 40%);
         }
     }
 `
